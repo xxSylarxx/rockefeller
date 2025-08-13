@@ -79,8 +79,8 @@
 <header id="header" class="fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container ps-0">
-            <a class="navbar-brand fs-4 fw-bold" style="letter-spacing: .08em;" href="/">
-                <img src="./public/img/icons/escudo_isp.png" height="55">
+            <a class="navbar-brand fs-4 fw-bold" style="letter-spacing: .08em;" href="./index.php">
+                <img src="./public/img/icons/logo-head.png" height="55">
                 <!--   <span>sadasdsad</span> -->
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false">
@@ -98,7 +98,10 @@
                         <a class="nav-link" href="./carreras.php">Carreras</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./cursos.php">Cursos</a>
+                        <a class="nav-link" href="./cursos.php">Educacion Inicial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./cursos.php">Convenios</a>
                     </li>
                     <!--  <li class="nav-item" onmouseover="showMenuHover(0)" onmouseout="showMenuHover2(0)">
                         <a class="nav-link" href="#" id="navbarDropdown">
@@ -120,12 +123,12 @@
                         </ul>
                     </li> -->
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Transparencia</a>
+                        <a class="nav-link" href="">Transparencia</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./noticias.php">Noticias</a>
                     </li>
-                    <li class="nav-item me-0">
+                    <li class="nav-item me-0" >
 
                         <a class="nav-link round" href="javascript:void(0);" onclick="openRegisterModal()">Contacto</a>
                         <script>

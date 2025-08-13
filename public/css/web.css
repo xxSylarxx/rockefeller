@@ -4,8 +4,8 @@
 
 
 :root {
-  --color1: #01358B;
-  --color1: rgb(1, 53, 139);
+  --color1: #761D70;
+  /* --color1: rgb(1, 53, 139); */
   --color2: #0BC6F3;
   --color3: #ff933a;
   --color4: #5a688f;
@@ -55,12 +55,12 @@ h2{
 }
 
 #header a.nav-link.active {
-  color: var(--color2);
+  color: var(--color1);
 }
 
 #header a.nav-link.round {
   border-radius: 6px;
-  background-color: var(--color2);
+  background-color: var(--color1);
   color: white;
   border-radius: 50px;
   padding: 10px 22px;

@@ -8,8 +8,8 @@
 
         background: var(--color1);
         background-size: 20%;
-        padding-left: 7%!important;
-        padding-right: 7%!important;
+        padding-left: 7% !important;
+        padding-right: 7% !important;
         position: relative;
     }
 
@@ -81,11 +81,11 @@
                             <div class="col-lg  d-flex justify-content-start">
                                 <a class="btn" href="javascript:void(0);" onclick="openRegisterModal()">Ver Más&nbsp;&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
                                 <script>
-                            function openRegisterModal() {
-                                var registerModal = new bootstrap.Modal(document.getElementById('registerModal'));
-                                registerModal.show();
-                            }
-                        </script>
+                                    function openRegisterModal() {
+                                        var registerModal = new bootstrap.Modal(document.getElementById('registerModal'));
+                                        registerModal.show();
+                                    }
+                                </script>
                             </div>
                         </div>
                     </div>
@@ -114,8 +114,8 @@
                   <div class="col-lg-2"><i class="fab fa-facebook-f"></i></div>
                   <div class="col-lg-2"><i class="fab fa-facebook-f"></i></div>
               </div>-->
-              <div class="d-flex justify-content-center">
-                   <!--  <div class="col-lg-2">
+                <div class="d-flex justify-content-center">
+                    <!--  <div class="col-lg-2">
                         <div style="border-radius:50%;background: var(--color2);width:40px;height:40px;padding-top:4px;">
                             <a href="https://www.instagram.com/berkeleyschoolperu?igsh=ZGV0cWtvNXUyamln" style="color:var(--color1);font-size:20px;" target="_blank">
                                 <center><i class="fab fa-instagram"></i></center>
@@ -124,18 +124,32 @@
                     </div> -->
                     <div class="col-lg-2">
                         <div style="border-radius:50%;background:white;width:40px;height:40px;padding-top:4px;">
-                            <a href="https://www.facebook.com/ISPinstituto/" style="color:var(--color1);font-size:20px;" target="_blank">
+                            <a href="https://www.facebook.com/institutopedagogiconelsonrockefeller" style="color:var(--color1);font-size:20px;" target="_blank">
                                 <center><i class="fab fa-facebook"></i></center>
                             </a>
                         </div>
                     </div>
-                   <!--  <div class="col-lg-2">
-                        <div style="border-radius:50%;background: var(--color2);width:40px;height:40px;padding-top:4px;">
-                            <a href="https://www.linkedin.com/company/berkeley-school/?trk=ppro_cprof&amp;originalSubdomain=pe" style="color:var(--color1);font-size:20px;" target="_blank">
-                                <center><i class="fab fa-linkedin"></i></center>
+                    <div class="col-lg-2">
+                        <div style="border-radius:50%;background:white;width:40px;height:40px;padding-top:4px;">
+                            <a href="https://www.tiktok.com/@iesppnelsonrockefeller" style="color:var(--color1);font-size:20px;" target="_blank">
+                                <center><i class="fab fa-youtube"></i></center>
                             </a>
                         </div>
-                    </div> -->
+                    </div>
+                    <div class="col-lg-2">
+                        <div style="border-radius:50%;background:white;width:40px;height:40px;padding-top:4px;">
+                            <a href="https://www.tiktok.com/@iesppnelsonrockefeller" style="color:var(--color1);font-size:20px;" target="_blank">
+                                <center><i class="fab fa-tiktok"></i></center>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div style="border-radius:50%;background:white;width:40px;height:40px;padding-top:4px;">
+                            <a href="https://www.instagram.com/instituto_nelson_rockefeller/" style="color:var(--color1);font-size:20px;" target="_blank">
+                                <center><i class="fab fa-instagram"></i></center>
+                            </a>
+                        </div>
+                    </div>
                 </div>
                 <br>
 

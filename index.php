@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="El Instituto Sistemas Perú se dedica a proporcionar una educación integral de alta calidad que fomente el desarrollo académico, personal y social de nuestros estudiantes.">
     <title>ISP - Instituto</title>
-    <link rel="shortcut icon" href="./public/img/icons/escudo.png" type="image/png">
+    <link rel="shortcut icon" href="./public/img/icons/logo.png" type="image/png">
     <!--     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"> -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
     <link rel="stylesheet" href="./public/css/animate.min.css">
@@ -57,6 +57,10 @@
             font-size: 2rem;
         }
 
+        #somos p {
+            text-align: justify;
+        }
+
         /* estilos de publicaciones */
         #publications div.card {
             border: none;
@@ -103,18 +107,20 @@
             width: 100%;
             object-fit: cover;
         }
+
         .titulo-border {
-            width: 180px!important;
-            padding: .4rem!important;
-            background-color: var(--color6)!important;
-            display: flex!important;
-            align-items: center!important;
-            justify-content: center!important;
-            margin-bottom: 20px!important;
-            border-radius: 20px!important;
-            color: var(--color1)!important;
+            width: 180px !important;
+            padding: .4rem !important;
+            background-color: var(--color6) !important;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            margin-bottom: 20px !important;
+            border-radius: 20px !important;
+            color: var(--color1) !important;
         }
-        .titulo-border span{
+
+        .titulo-border span {
             text-align: start;
             display: block;
         }
@@ -123,7 +129,7 @@
             width: 30%;
         }
 
-     
+
         .img-somos-logo {
             position: relative;
             bottom: 10%;
@@ -275,7 +281,7 @@
             margin: 2rem;
         }
 
-      
+
         #resultados .counter {
 
             color: white;
@@ -290,7 +296,7 @@
             align-items: center;
 
         }
-      
+
 
         @media screen and (max-width:1200px) {
             #carouselBanner div.carousel-item img {
@@ -393,7 +399,7 @@
 
 
     <br><br><br>
- 
+
 
     <section id="somos" class="py-5">
         <div class="container">
@@ -409,7 +415,7 @@
                     </div>
                     <div class="row img-somos-logo">
                         <div class="col-lg-12">
-                            <img src="./public/img/icons/escudo.png" width="30%" alt="">
+                            <img src="./public/img/icons/logo.png" width="30%" alt="">
                         </div>
                     </div>
                 </div>
@@ -421,10 +427,23 @@
                                 <span class="my-auto">Conócenos más</span>
                             </div>
                         </div>
-                        <h3 style="font-weight:400;">Comprometidos con la</h3>
-                        <h3 style="color:var(--color1);font-weight:600;"> educación de calidad</h3>
+                        <!-- <h3 style="font-weight:400;">Comprometidos con la</h3>
+                        <h3 style="color:var(--color1);font-weight:600;"> educación de calidad</h3> -->
                         <br>
-                        <p style="text-align: justify;">El Instituto de Sistemas es una comunidad educativa comprometida con el aprendizaje y la innovación en el ámbito tecnológico. A lo largo de los años, hemos formado a estudiantes con conocimientos sólidos en informática, programación y soporte técnico, preparándolos para enfrentar los retos de un mundo en constante evolución.</p> 
+                        <p>
+                            Bienvenidos al Instituto de Educación Superior Pedagógico Privado “Nelson Rockefeller”.
+                        </p>
+                        <p>
+                            Es un honor para mí, como director, darles la más cordial bienvenida a nuestra casa de estudios, dedicada con vocación y compromiso a la formación de futuras maestras y maestros de Educación Inicial.
+                        </p>
+                        En el Instituto “Nelson Rockefeller” creemos firmemente que la educación es la base del desarrollo humano y social, y que todo gran cambio empieza desde la infancia. Por ello, hemos asumido la responsabilidad de formar profesionales altamente capacitados, con sólidos valores éticos, pedagógicos y humanos, capaces de transformar la realidad educativa de nuestro país desde las primeras etapas del desarrollo infantil.
+                        <p>
+                            Nuestra carrera profesional de Educación Inicial, con una duración de cinco años, está diseñada para brindar una formación integral, combinando la teoría con la práctica, y fomentando la creatividad, el pensamiento crítico y el amor por la enseñanza. Nos enorgullece contar con un equipo docente comprometido, instalaciones adecuadas y una comunidad educativa que valora el respeto, la inclusión y la excelencia académica.
+                        </p>
+                        Los invito a conocer más sobre nuestra propuesta formativa y a ser parte de este camino apasionante de formación profesional. Juntos construiremos una educación de calidad para las futuras generaciones.
+                        <p>
+                            ¡Sean todos bienvenidos!
+                        </p>
                         <div class="d-flex align-items-center gap-24 mb-36">
                             <div class="d-flex align-items-center gap-16">
                                 <img src="./public/img/icons/instituto.png" class="content-vector" alt="">
@@ -455,81 +474,81 @@
 
 
     <section id="carreras">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg">
-                        <h2 class="text-center">Nuestras Carreras</h2>
-                    </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg">
+                    <h2 class="text-center">Nuestras Carreras</h2>
                 </div>
-                <br>
-                <br>
-                <div class="row cursos_content_slider owl-carousel owl-theme">
-                    <div class="carreras_slider">
-                        <div class="content-carrera-curso">
-                            <div class="ccarrera-curso-img">
-                                <img src="./public/img/galeria/pc_admin_empresas.jpg" alt="">
-                            </div>
-                            <div class="ccarrera-curso-cuerpo p-4">
-                                <h3 class="text-center" style="color:var(--color1);">Administración de Empresas</h3>
-
-                                <p>Si te gusta planificar, organizar, dirigir, controlar y optimizar los recursos humanos y financieros de una empresa o estar capacitado para tu propio proyecto de emprendimiento donde obtendrás una gran satisfacción personal de lograr el reto.</p>
-                                <br>
-                                <div class="col-lg  d-flex justify-content-center">
-                                    <a class="btn" href="./view2.php?id=1">Ver Más&nbsp;&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
-                                </div>
-                            </div>
+            </div>
+            <br>
+            <br>
+            <div class="row cursos_content_slider owl-carousel owl-theme">
+                <div class="carreras_slider">
+                    <div class="content-carrera-curso">
+                        <div class="ccarrera-curso-img">
+                            <img src="./public/img/galeria/pc_admin_empresas.jpg" alt="">
                         </div>
-                    </div>
-                    <div class="carreras_slider">
-                        <div class="content-carrera-curso">
-                            <div class="ccarrera-curso-img">
-                                <img src="./public/img/galeria/pc_locucion.jpg" alt="">
-                            </div>
-                            <div class="ccarrera-curso-cuerpo p-4">
-                                <h3 class="text-center" style="color:var(--color1);">Locución Radial y Televisiva</h3>
+                        <div class="ccarrera-curso-cuerpo p-4">
+                            <h3 class="text-center" style="color:var(--color1);">Administración de Empresas</h3>
 
-                                <p>El profesional técnico en Locución y Conducción de radio y televisión está capacitado para crear, producir y dirigir programas en las diferentes plataformas digitales.</p>
-                                <br>
-                                <div class="col-lg  d-flex justify-content-center">
-                                    <a class="btn" href="./view2.php?id=2">Ver Más&nbsp;&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carreras_slider">
-                        <div class="content-carrera-curso">
-                            <div class="ccarrera-curso-img">
-                                <img src="./public/img/galeria/pc_audiovisial.jpg" alt="">
-                            </div>
-                            <div class="ccarrera-curso-cuerpo p-4">
-                                <h3 class="text-center" style="color:var(--color1);">Comunicación Audiovisual</h3>
-
-                                <p>El profesional en Comunicación Audiovisual está capacitado para la producción, edición y postproducción de contenidos multimedia en diversos formatos y plataformas. </p>
-                                <br>
-                                <div class="col-lg  d-flex justify-content-center">
-                                    <a class="btn" href="./view2.php?id=3">Ver Más&nbsp;&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carreras_slider">
-                        <div class="content-carrera-curso">
-                            <div class="ccarrera-curso-img">
-                                <img src="./public/img/galeria/pc_periodismo.jpg" alt="">
-                            </div>
-                            <div class="ccarrera-curso-cuerpo p-4">
-                                <h3 class="text-center" style="color:var(--color1);">Periodismo Radial y Televisivo</h3>
-
-                                <p>Una persona interesada en descubrir e investigar temas de interés público, con la profesionalidad de gestionar, producir y desarrollar todos los contenidos informativos dirigidos a entornos multimediáticos.</p>
-                                <br>
-                                <div class="col-lg  d-flex justify-content-center">
-                                    <a class="btn" href="./view2.php?id=4">Ver Más&nbsp;&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
-                                </div>
+                            <p>Si te gusta planificar, organizar, dirigir, controlar y optimizar los recursos humanos y financieros de una empresa o estar capacitado para tu propio proyecto de emprendimiento donde obtendrás una gran satisfacción personal de lograr el reto.</p>
+                            <br>
+                            <div class="col-lg  d-flex justify-content-center">
+                                <a class="btn" href="./view2.php?id=1">Ver Más&nbsp;&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
-        </section>
+                <div class="carreras_slider">
+                    <div class="content-carrera-curso">
+                        <div class="ccarrera-curso-img">
+                            <img src="./public/img/galeria/pc_locucion.jpg" alt="">
+                        </div>
+                        <div class="ccarrera-curso-cuerpo p-4">
+                            <h3 class="text-center" style="color:var(--color1);">Locución Radial y Televisiva</h3>
+
+                            <p>El profesional técnico en Locución y Conducción de radio y televisión está capacitado para crear, producir y dirigir programas en las diferentes plataformas digitales.</p>
+                            <br>
+                            <div class="col-lg  d-flex justify-content-center">
+                                <a class="btn" href="./view2.php?id=2">Ver Más&nbsp;&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carreras_slider">
+                    <div class="content-carrera-curso">
+                        <div class="ccarrera-curso-img">
+                            <img src="./public/img/galeria/pc_audiovisial.jpg" alt="">
+                        </div>
+                        <div class="ccarrera-curso-cuerpo p-4">
+                            <h3 class="text-center" style="color:var(--color1);">Comunicación Audiovisual</h3>
+
+                            <p>El profesional en Comunicación Audiovisual está capacitado para la producción, edición y postproducción de contenidos multimedia en diversos formatos y plataformas. </p>
+                            <br>
+                            <div class="col-lg  d-flex justify-content-center">
+                                <a class="btn" href="./view2.php?id=3">Ver Más&nbsp;&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carreras_slider">
+                    <div class="content-carrera-curso">
+                        <div class="ccarrera-curso-img">
+                            <img src="./public/img/galeria/pc_periodismo.jpg" alt="">
+                        </div>
+                        <div class="ccarrera-curso-cuerpo p-4">
+                            <h3 class="text-center" style="color:var(--color1);">Periodismo Radial y Televisivo</h3>
+
+                            <p>Una persona interesada en descubrir e investigar temas de interés público, con la profesionalidad de gestionar, producir y desarrollar todos los contenidos informativos dirigidos a entornos multimediáticos.</p>
+                            <br>
+                            <div class="col-lg  d-flex justify-content-center">
+                                <a class="btn" href="./view2.php?id=4">Ver Más&nbsp;&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
 
     <section id="resultados">
         <div class="container-fluid" style="padding-left: 5%; padding-right: 5%;">
@@ -602,33 +621,33 @@
         </div>
     </section>
     <section id="cursos">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg">
-                        <h2 class="text-center">Nuestras Cursos</h2>
-                    </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg">
+                    <h2 class="text-center">Nuestras Cursos</h2>
                 </div>
-                <br>
-                <br>
-                <div class="row cursos_content_slider owl-carousel owl-theme">
-                    <div class="carreras_slider">
-                        <div class="content-carrera-curso">
-                            <div class="ccarrera-curso-img">
-                                <img src="./public/img/galeria/curso1.jpg" alt="">
-                            </div>
-                            <div class="ccarrera-curso-cuerpo p-4">
-                                <h3 class="text-center" style="color:var(--color1);">Periodismo Deportivo</h3>
+            </div>
+            <br>
+            <br>
+            <div class="row cursos_content_slider owl-carousel owl-theme">
+                <div class="carreras_slider">
+                    <div class="content-carrera-curso">
+                        <div class="ccarrera-curso-img">
+                            <img src="./public/img/galeria/curso1.jpg" alt="">
+                        </div>
+                        <div class="ccarrera-curso-cuerpo p-4">
+                            <h3 class="text-center" style="color:var(--color1);">Periodismo Deportivo</h3>
 
-                                <p>El periodismo deportivo es una especialización del periodismo que se enfoca en la cobertura de eventos deportivos, atletas y temas relacionados con el deporte. </p>
-                                <br>
-                                <div class="col-lg  d-flex justify-content-center">
-                                    <a class="btn" href="./view3.php?id=1">Ver Más&nbsp;&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
-                                </div>
+                            <p>El periodismo deportivo es una especialización del periodismo que se enfoca en la cobertura de eventos deportivos, atletas y temas relacionados con el deporte. </p>
+                            <br>
+                            <div class="col-lg  d-flex justify-content-center">
+                                <a class="btn" href="./view3.php?id=1">Ver Más&nbsp;&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
-        </section>
+            </div>
+    </section>
 
     <?php include_once './partials/footer.php'; ?>
 </body>
