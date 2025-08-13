@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@500&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root {
+  --color1: #01358B;
+  --color1: rgb(1, 53, 139);
+  --color2: #0BC6F3;
+  --color3: #ff933a;
+  --color4: #5a688f;
+  --color5: white;
+  --color6: rgba(11, 198, 243,0.5);
+  --color7:#E5ECF2;
+  --color8:#BFF0FF;
+  --fontsize: 16px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: var(--fontsize);
+  background-color: #ffffff;
+  color: #1a1a1a;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+}
+h2{
+  font-size: 2.5rem;
+}
+
+#header {
+  box-shadow: 0 0 10px #505050;
+}
+
+#header nav.navbar {
+  background-color: var(--color5);
+  min-height: 90px;
+}
+
+#header li.nav-item {
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 14px;
+}
+
+#header a.nav-link {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  color: var(--color1);
+}
+
+#header a.nav-link.active {
+  color: var(--color2);
+}
+
+#header a.nav-link.round {
+  border-radius: 6px;
+  background-color: var(--color2);
+  color: white;
+  border-radius: 50px;
+  padding: 10px 22px;
+}
+
+#header .dropdown-menu {
+  border: none;
+}
+
+#header .dropdown-item:hover {
+  background-color: var(--color2);
+  color: white;
+}
+/* Estilos de botones */
+.btn {
+  background-color: var(--color1);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.btn:hover {
+  color: var(--color5);
+}
+
+
+@media screen and (max-width: 1000px) {
+  #header nav.navbar {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  #header li.nav-item {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+}
