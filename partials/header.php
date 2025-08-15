@@ -94,7 +94,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="./nosotros.php">Nosotros</a>
                     </li>
-                   <!--  <li class="nav-item">
+                    <!--  <li class="nav-item">
                         <a class="nav-link" href="./carreras.php">Carreras</a>
                     </li> -->
                     <li class="nav-item">
@@ -123,15 +123,15 @@
                         </ul>
                     </li> -->
                     <li class="nav-item">
-                        <a class="nav-link" href="">Transparencia</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="">Admisión</a>
+                        <a class="nav-link" href="./transparencia.php">Transparencia</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./noticias.php">Noticias</a>
                     </li>
-                    <li class="nav-item me-0" >
+                    <li class="nav-item">
+                        <a class="nav-link" href="./admision.php">Admisión</a>
+                    </li>
+                    <li class="nav-item me-0">
 
                         <a class="nav-link round" href="javascript:void(0);" onclick="openRegisterModal()">Contacto</a>
                         <script>
@@ -150,7 +150,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header d-flex flex-column">
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 <h5 class="modal-title" id="registerModalLabel">Regístrate aquí</h5>
                 <p>En breve, un profesional te contactará.</p>
 
