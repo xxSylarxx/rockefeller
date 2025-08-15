@@ -94,9 +94,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="./nosotros.php">Nosotros</a>
                     </li>
-                    <li class="nav-item">
+                   <!--  <li class="nav-item">
                         <a class="nav-link" href="./carreras.php">Carreras</a>
-                    </li>
+                    </li> -->
                     <li class="nav-item">
                         <a class="nav-link" href="./cursos.php">Educacion Inicial</a>
                     </li>
@@ -150,7 +150,7 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 <h5 class="modal-title" id="registerModalLabel">Regístrate aquí</h5>
                 <p>En breve, un profesional te contactará.</p>
-               
+
             </div>
             <div class="modal-body">
                 <form>

@@ -6,11 +6,13 @@
 :root {
   --color1: #761D70;
   /* --color1: rgb(1, 53, 139); */
-  --color2: #0BC6F3;
+  /* --color2: #0BC6F3; */
+  /* --color2: #F5F5F5; */
+  --color2: #edebeb;
   --color3: #ff933a;
   --color4: #5a688f;
   --color5: white;
-  --color6: rgba(11, 198, 243,0.5);
+  --color6: #E0B3E6;
   --color7:#E5ECF2;
   --color8:#BFF0FF;
   --fontsize: 16px;

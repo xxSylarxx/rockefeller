@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="El Instituto Sistemas Perú se dedica a proporcionar una educación integral de alta calidad que fomente el desarrollo académico, personal y social de nuestros estudiantes.">
-    <title>ISP - Instituto</title>
+    <title>IES - NELSON ROCKEFELLER</title>
     <link rel="shortcut icon" href="./public/img/icons/logo.png" type="image/png">
     <!--     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"> -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
@@ -27,9 +27,9 @@
 
     <style>
         /* estilos del banner dinámico */
-        #carouselBanner div.carousel-item img {
+        /* #carouselBanner div.carousel-item img {
             height: calc(100vh - 90px);
-        }
+        } */
 
         div.content-banner .frame-responsive {
             position: relative;
@@ -171,7 +171,7 @@
         /* Párrafo con altura limitada inicialmente */
         .ccarrera-curso-cuerpo p {
             text-align: justify;
-            color: var(--color5);
+            /* color: var(--color5); */
             max-height: 70px;
             overflow: hidden;
             transition: .2s ease-in;
@@ -257,7 +257,8 @@
 
         /* seccion de resultados */
         #resultados {
-            background: linear-gradient(to bottom, rgba(1, 53, 139, .9) 100%, #ffff 10%, #ffff 50%), url('./public/img/web/bg-contador.jpg') !important;
+            margin-top: 2rem;
+            background: linear-gradient(to bottom, var(--color1) 100%, #ffff 10%, #ffff 50%), url('./public/img/web/bg-contador.jpg') !important;
             background-attachment: fixed;
             background-size: cover;
             background-size: 100% !important;
@@ -375,10 +376,10 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="./public/img/banner/banner4.jpg" class="d-block w-100" style="object-fit: cover;;">
+                    <img src="./public/img/banner/banner1.jpg" class="d-block w-100" style="object-fit: cover;;">
                 </div>
                 <div class="carousel-item ">
-                    <img src="./public/img/banner/banner2.jpg" class="d-block w-100" style="object-fit: cover;;">
+                    <img src="./public/img/banner/banner1.jpg" class="d-block w-100" style="object-fit: cover;;">
                 </div>
                 <div class="carousel-item ">
                     <img src="./public/img/banner/banner1.jpg" class="d-block w-100" style="object-fit: cover;;">
@@ -430,17 +431,10 @@
                         <!-- <h3 style="font-weight:400;">Comprometidos con la</h3>
                         <h3 style="color:var(--color1);font-weight:600;"> educación de calidad</h3> -->
                         <br>
-                        <p>
-                            Bienvenidos al Instituto de Educación Superior Pedagógico Privado “Nelson Rockefeller”.
-                        </p>
-                        <p>
-                            Es un honor para mí, como director, darles la más cordial bienvenida a nuestra casa de estudios, dedicada con vocación y compromiso a la formación de futuras maestras y maestros de Educación Inicial.
-                        </p>
-                        En el Instituto “Nelson Rockefeller” creemos firmemente que la educación es la base del desarrollo humano y social, y que todo gran cambio empieza desde la infancia. Por ello, hemos asumido la responsabilidad de formar profesionales altamente capacitados, con sólidos valores éticos, pedagógicos y humanos, capaces de transformar la realidad educativa de nuestro país desde las primeras etapas del desarrollo infantil.
-                        <p>
-                            Nuestra carrera profesional de Educación Inicial, con una duración de cinco años, está diseñada para brindar una formación integral, combinando la teoría con la práctica, y fomentando la creatividad, el pensamiento crítico y el amor por la enseñanza. Nos enorgullece contar con un equipo docente comprometido, instalaciones adecuadas y una comunidad educativa que valora el respeto, la inclusión y la excelencia académica.
-                        </p>
-                        Los invito a conocer más sobre nuestra propuesta formativa y a ser parte de este camino apasionante de formación profesional. Juntos construiremos una educación de calidad para las futuras generaciones.
+                        <p>El Instituto de Educación Superior Pedagógico Privado “Nelson Rockefeller” es una institución dedicada a la formación profesional de docentes en la especialidad de Educación Inicial.</p>
+                        <p>Con una carrera profesional de cinco años, brindamos una educación de calidad que combina la teoría con la práctica, promoviendo el desarrollo de competencias pedagógicas, éticas y humanas en nuestros estudiantes.</p>
+                        <p>Nuestro compromiso es formar maestras y maestros preparados para transformar la educación desde las primeras etapas del desarrollo infantil, contribuyendo al bienestar y crecimiento de nuestra sociedad.</p>
+                        <p>Trabajamos con vocación, responsabilidad y excelencia, fomentando una comunidad educativa inclusiva, participativa y orientada al servicio.</p>
                         <p>
                             ¡Sean todos bienvenidos!
                         </p>
@@ -473,7 +467,7 @@
 
 
 
-    <section id="carreras">
+    <!-- <section id="carreras">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg">
@@ -548,7 +542,7 @@
                     </div>
                 </div>
             </div>
-    </section>
+    </section> -->
 
     <section id="resultados">
         <div class="container-fluid" style="padding-left: 5%; padding-right: 5%;">
@@ -557,7 +551,7 @@
                     <div class="heading text-start">
                         <div class="titulo-border">
                             <img src="./public/img/icons/buld-vec.png" class="bulb-vec" alt="">
-                            <span class="my-auto text-white">Nuestro Impacto</span>
+                            <span class="my-auto">Nuestro Impacto</span>
                         </div>
                     </div>
                 </div>
@@ -624,16 +618,16 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg">
-                    <h2 class="text-center">Nuestras Cursos</h2>
+                    <h2 class="text-center">Noticias</h2>
                 </div>
             </div>
             <br>
             <br>
-            <div class="row cursos_content_slider owl-carousel owl-theme">
-                <div class="carreras_slider">
+            <div class="row">
+                <div class="col-lg-4"><div class="carreras_slider">
                     <div class="content-carrera-curso">
                         <div class="ccarrera-curso-img">
-                            <img src="./public/img/galeria/curso1.jpg" alt="">
+                            <img src="./public/img/galeria/portada_pub1.jpg" alt="">
                         </div>
                         <div class="ccarrera-curso-cuerpo p-4">
                             <h3 class="text-center" style="color:var(--color1);">Periodismo Deportivo</h3>
@@ -645,7 +639,39 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div></div>
+                <div class="col-lg-4"><div class="carreras_slider">
+                    <div class="content-carrera-curso">
+                        <div class="ccarrera-curso-img">
+                            <img src="./public/img/galeria/portada_pub1.jpg" alt="">
+                        </div>
+                        <div class="ccarrera-curso-cuerpo p-4">
+                            <h3 class="text-center" style="color:var(--color1);">Periodismo Deportivo</h3>
+
+                            <p>El periodismo deportivo es una especialización del periodismo que se enfoca en la cobertura de eventos deportivos, atletas y temas relacionados con el deporte. </p>
+                            <br>
+                            <div class="col-lg  d-flex justify-content-center">
+                                <a class="btn" href="./view3.php?id=1">Ver Más&nbsp;&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div></div>
+                <div class="col-lg-4"><div class="carreras_slider">
+                    <div class="content-carrera-curso">
+                        <div class="ccarrera-curso-img">
+                            <img src="./public/img/galeria/portada_pub1.jpg" alt="">
+                        </div>
+                        <div class="ccarrera-curso-cuerpo p-4">
+                            <h3 class="text-center" style="color:var(--color1);">Periodismo Deportivo</h3>
+
+                            <p>El periodismo deportivo es una especialización del periodismo que se enfoca en la cobertura de eventos deportivos, atletas y temas relacionados con el deporte. </p>
+                            <br>
+                            <div class="col-lg  d-flex justify-content-center">
+                                <a class="btn" href="./view3.php?id=1">Ver Más&nbsp;&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div></div>
             </div>
     </section>
 
