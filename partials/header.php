@@ -101,7 +101,7 @@
                         <a class="nav-link" href="./cursos.php">Educacion Inicial</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./cursos.php">Convenios</a>
+                        <a class="nav-link" href="./convenios.php">Convenios</a>
                     </li>
                     <!--  <li class="nav-item" onmouseover="showMenuHover(0)" onmouseout="showMenuHover2(0)">
                         <a class="nav-link" href="#" id="navbarDropdown">

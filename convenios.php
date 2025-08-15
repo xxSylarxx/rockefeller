@@ -260,7 +260,7 @@
                     <div class="col-md-4 px-3 my-3">
                         <a href="view.php?id=3">
                             <div class="card shadow-sm h-100" style="background: rgb(248, 248, 248);">
-                                <span class="news">Noticias</span>
+                                <span class="news">Convenios</span>
                                 <img src="./public/img/galeria/portada_pub3.jpg" width="100%" height="300">
 
                                 <div class="card-body">

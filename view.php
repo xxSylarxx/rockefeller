@@ -25,7 +25,6 @@
     <script src="./public/js/popper.min.js"></script>
 
     <style>
-
         .button5 {
             background-color: var(--color1);
             border: none;
@@ -100,10 +99,31 @@
         strong {
             font-weight: bold;
         }
+
         .sticky-col {
             position: sticky;
             top: 120px;
             align-self: flex-start;
+        }
+
+        #body-pub iframe[src*="facebook.com"] {
+            display: block !important;
+            margin: 0 auto !important;
+            max-width: 100% !important;
+            max-height: 700px;
+        }
+
+        #body-pub iframe[src*="youtube.com"] {
+            display: block !important;
+            margin: 0 auto !important;
+            width: 100% !important;
+            min-height: 500px;
+        }
+
+        @media only screen and (max-width: 650px) {
+            #body-pub iframe {
+                width: 100% !important;
+            }
         }
 
         @media (max-width: 750px) {
@@ -138,16 +158,17 @@
         </div> -->
         <div class="row justify-content-between mt-4" style="padding-top: 3rem; padding-bottom: 7rem;">
             <div class="col-md-8">
-                <?php include_once './noticias/noticia' . $_GET['id'] . '.php' ?>
-                <div class="col-md text-center pt-5">
-                    <a href="./noticias.php"><button class="button5">Ver Más</button></a>
+                <div id="body-pub">
+                    <?php include_once './noticias/noticia' . $_GET['id'] . '.php' ?>
+                    <div class="col-md text-center pt-5">
+                        <a href="./noticias.php"><button class="button5">Ver Más</button></a>
+                    </div>
                 </div>
-
             </div>
 
             <div class="col-md-4 my-2">
                 <div class="mx-4 sticky-col">
-                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Finstitutopedagogiconelsonrockefeller&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="100%" height="650" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Finstitutopedagogiconelsonrockefeller&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="100%" height="600" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
                 </div>
             </div>
 
