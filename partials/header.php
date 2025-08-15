@@ -126,6 +126,9 @@
                         <a class="nav-link" href="">Transparencia</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="">Admisión</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="./noticias.php">Noticias</a>
                     </li>
                     <li class="nav-item me-0" >
