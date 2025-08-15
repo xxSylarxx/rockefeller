@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- Iconos de Boostrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
 
 
@@ -38,6 +40,15 @@
     <!-- ventana emergente admin -->
 
     <style>
+        #historia {
+            padding-top: 7rem;
+            padding-bottom: 2rem;
+        }
+
+        #historia h2 {
+            text-align: center;
+        }
+
         #lema {
             padding-top: 7rem;
             padding-bottom: 2rem;
@@ -188,6 +199,10 @@
             left: -4%;
             object-fit: cover;
         }
+        #beneficios{
+            padding-top: 6rem;
+            padding-bottom: 6rem;
+        }
 
 
         @media screen and (max-width: 500px) {
@@ -209,12 +224,13 @@
                 width: 35%;
 
             }
-            #mision{
-                padding-top:5rem;
+
+            #mision {
+                padding-top: 5rem;
             }
-         
-            #vision{
-                padding-top:15rem;
+
+            #vision {
+                padding-top: 15rem;
             }
         }
     </style>
@@ -238,11 +254,23 @@
 
             </div>
  -->
-            <img src="./public/img/portadas/pi_nosotros.jpg" width="100%" height="600">
+            <img src="./public/img/portadas/portada_interna.jpg" width="100%" height="600">
         </div>
+        <section id="historia">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg">
+                        <h2>
+                            RESEÑA HISTÓRICA
+                        </h2>
+                        <br>
+                        <p>El Instituto de Educación Superior Pedagógico Privado “Nelson Rockefeller” tuvo su nacimiento oficial en el año de 1992. En mérito al D.S.N Nº 39-94-ED, con las Especialidades de Educación Inicial, Primaria y Secundaria: Matemática, siendo reinscrita por D.S 050-2002-ED, a la fecha, cuenta con más de 3,000 egresados distribuidos del I al X Semestres Académicos .</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-
-        <section id="lema">
+        <!-- <section id="lema">
             <div class="container">
                 <div class="row">
                     <div class="col-lg">
@@ -250,13 +278,14 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <section id="mision-vision" style="padding-top: 6rem;">
             <div class="container-fluid" style="padding-left: 5%;padding-right: 5%;">
                 <div class="row d-flex justify-content-center">
                     <div id="mision" class="col-xxl-6 col-lg-11">
-                        <div class="mx-4  h-100" style="background: url('./public/img/web/bg-mision-vision.jpg') no-repeat center center; background-size: cover;position:relative;border-radius:20px;">
+                        <!-- <div class="mx-4  h-100" style="background: url('./public/img/web/bg-mision-vision.jpg') no-repeat center center; background-size: cover;position:relative;border-radius:20px;"> -->
+                        <div class="mx-4  h-100" style="background: var(--color2); position:relative;border-radius:20px;">
                             <img src="./public/img/web/mision-p.png" alt="">
                             <div class="row d-flex justify-content-center">
                                 <div class="col-lg-5 ">
@@ -265,14 +294,15 @@
                                 <div class="col-lg-7 h-100">
                                     <div style="padding:50px 50px 50px 0px;">
                                         <h2 class="text-center" style="color: var(--color1);">Misión</h2>
-                                        <p style="text-align: justify;padding-top:2rem;color:var(--color5);">El Instituto Sistemas Perú se dedica a proporcionar una educación integral de alta calidad que fomente el desarrollo académico, personal y social de nuestros estudiantes. Nos comprometemos a crear un ambiente inclusivo y estimulante que promueva el pensamiento crítico, la creatividad y el respeto por la diversidad. A través de programas innovadores y un equipo docente altamente capacitado, buscamos preparar a nuestros estudiantes para enfrentar los desafíos del mundo actual y contribuir positivamente a la sociedad.</p>
+                                        <p style="text-align: justify;padding-top:2rem;">Formar profesionales en el ámbito educativo que fomenten el desarrollo integral de los estudiantes de manera continua, sustentados en una cultura de valores, para que se desempeñen en un mundo globalizado, competitivo y productivo. Su labor se dirige a niños, jóvenes y adultos de la comunidad, a través de líderes docentes y no docentes, con una gestión eficiente de los recursos, promoviendo y difundiendo valores, cultura, deporte, ciencia y tecnología.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div id="vision" class="col-xxl-6 col-lg-11">
-                        <div class="mx-4  h-100" style="background: url('./public/img/web/bg-mision-vision.jpg') no-repeat center center; background-size: cover;position:relative;border-radius:20px;">
+                        <!-- <div class="mx-4  h-100" style="background: url('./public/img/web/bg-mision-vision.jpg') no-repeat center center; background-size: cover;position:relative;border-radius:20px;"> -->
+                        <div class="mx-4  h-100" style="background: var(--color2); position:relative;border-radius:20px;">
                             <img src="./public/img/web/vision-p.png" alt="">
                             <div class="row">
                                 <div class="col-lg-5 ">
@@ -281,7 +311,7 @@
                                 <div class="col-lg-7 h-100">
                                     <div style="padding:50px 50px 50px 0px;">
                                         <h2 class="text-center" style="color: var(--color1);">Visión</h2>
-                                        <p style="text-align: justify;padding-top:2rem;color:var(--color5);">Ser un referente en educación de excelencia, reconocido por nuestra capacidad de formar líderes comprometidos, críticos y creativos que transformen su entorno. Aspiramos a ser un instituto que inspire a nuestros estudiantes a alcanzar su máximo potencial, promoviendo valores de responsabilidad, ética y solidaridad, y que se adapte a las necesidades cambiantes de la sociedad y el mercado laboral del futuro.</p>
+                                        <p style="text-align: justify;padding-top:2rem;">Ser una Institución Superior sólida basada en una Educación de valores, con alumnos altamente competitivos y con una sólida formación científica humanística consciente de su realidad, mejorando su calidad de vida, desarrollando una cultura de paz y democracia, con formadores de avanzada con ética profesional, líderes en su área, capaces de competir a todo nivel.</p>
                                     </div>
                                 </div>
                             </div>
@@ -294,7 +324,7 @@
             </div>
 
         </section>
-        <section id="valores">
+        <!-- <section id="valores">
             <div class="container-fluid" style="padding-left: 5%;padding-right:5%;">
                 <div class="row">
                     <div class="col-lg-3 my-auto">
@@ -400,7 +430,151 @@
                     </div>
                 </div>
             </div>
+        </section> -->
+
+        <!-- BENEFICIOS -->
+        <section id="beneficios">
+            <div class="container">
+                <h2 class="text-center mb-4 fw-bold" style="color:#761D70;">Beneficios para Nuestros Estudiantes</h2>
+                <p class="text-center mb-5">Descubre todo lo que el Instituto Nelson Rockefeller tiene para ti.</p>
+
+                <div class="row g-5 d-md-flex"><!-- Cards para escritorio -->
+
+                    <!-- 1. Académicos -->
+                    <div class="col-md-4">
+                        <div class="card h-100 border-0 shadow-lg">
+                            <div class="card-body text-center">
+                                <i class="bi bi-book fs-1 text-primary"></i>
+                                <h5 class="mt-3 fw-bold">Beneficios Académicos</h5>
+                                <p>Potenciamos tu formación con recursos académicos y acompañamiento constante.</p>
+                                <ul class="text-start small">
+                                    <li>Tutorías semanales en cursos clave</li>
+                                    <li>Clínica pedagógica</li>
+                                    <li>Bibliografía digital gratuita</li>
+                                    <li>Premios por rendimiento</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2. Motivación -->
+                    <div class="col-md-4">
+                        <div class="card h-100 border-0 shadow-lg">
+                            <div class="card-body text-center">
+                                <i class="bi bi-star fs-1 text-warning"></i>
+                                <h5 class="mt-3 fw-bold">Motivación y Fidelización</h5>
+                                <p>Reconocemos tu esfuerzo y fomentamos la participación con actividades que inspiran.</p>
+                                <ul class="text-start small">
+                                    <li>Reconocimiento al compromiso docente</li>
+                                    <li>Sistema de puntos e insignias</li>
+                                    <li>Actividades recreativas</li>
+                                    <li>Clubes estudiantiles</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 3. Económicos -->
+                    <div class="col-md-4">
+                        <div class="card h-100 border-0 shadow-lg">
+                            <div class="card-body text-center">
+                                <i class="bi bi-cash-stack fs-1 text-success"></i>
+                                <h5 class="mt-3 fw-bold">Beneficios Económicos</h5>
+                                <p>Apoyamos tu economía con becas, descuentos y alianzas estratégicas.</p>
+                                <ul class="text-start small">
+                                    <li>Becas académicas, deportivas o artísticas</li>
+                                    <li>Descuentos por rendimiento</li>
+                                    <li>Programa de referidos</li>
+                                    <li>Precios preferenciales</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 4. Bienestar -->
+                    <div class="col-md-4">
+                        <div class="card h-100 border-0 shadow-lg">
+                            <div class="card-body text-center">
+                                <i class="bi bi-heart fs-1 text-danger"></i>
+                                <h5 class="mt-3 fw-bold">Bienestar y Desarrollo</h5>
+                                <p>Cuidamos tu salud mental y fortalecemos tus habilidades socioemocionales.</p>
+                                <ul class="text-start small">
+                                    <li>Apoyo psicológico gratuito</li>
+                                    <li>Talleres de habilidades blandas</li>
+                                    <li>Orientación vocacional</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 5. Formación -->
+                    <div class="col-md-4">
+                        <div class="card h-100 border-0 shadow-lg">
+                            <div class="card-body text-center">
+                                <i class="bi bi-easel fs-1 text-info"></i>
+                                <h5 class="mt-3 fw-bold">Formación y Práctica</h5>
+                                <p>Te preparamos para el campo laboral desde los primeros ciclos.</p>
+                                <ul class="text-start small">
+                                    <li>Prácticas preprofesionales</li>
+                                    <li>Aula modelo infantil</li>
+                                    <li>Charlas con especialistas</li>
+                                    <li>Diplomas complementarios</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 6. Tecnología -->
+                    <div class="col-md-4">
+                        <div class="card h-100 border-0 shadow-lg">
+                            <div class="card-body text-center">
+                                <i class="bi bi-laptop fs-1 text-secondary"></i>
+                                <h5 class="mt-3 fw-bold">Tecnología Educativa</h5>
+                                <p>Aprende con herramientas digitales innovadoras para tu futuro como docente.</p>
+                                <ul class="text-start small">
+                                    <li>Acceso gratuito a plataformas</li>
+                                    <li>Talleres de innovación</li>
+                                    <li>Biblioteca virtual</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Acordeón para móviles -->
+                <!-- <div class="accordion d-md-none" id="beneficiosAccordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#beneficio1">
+                                📚 Beneficios Académicos
+                            </button>
+                        </h2>
+                        <div id="beneficio1" class="accordion-collapse collapse show" data-bs-parent="#beneficiosAccordion">
+                            <div class="accordion-body">
+                                Potenciamos tu formación con recursos académicos y acompañamiento constante.
+                                <ul>
+                                    <li>Tutorías semanales en cursos clave</li>
+                                    <li>Clínica pedagógica</li>
+                                    <li>Bibliografía digital gratuita</li>
+                                    <li>Premios por rendimiento</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div> -->
+            </div>
         </section>
+        
+<!-- 
+        
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> -->
+
+
+
         <br><br><br>
         <br>
 
@@ -459,11 +633,6 @@
         });
     </script>
 
-
-    <!-- Script para carousel automatico -->
-    <!--     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-   -->
     <script src="./public/js/hubslider.min.js"></script>
     <script>
         $('.hub-slider-slides ul').hubSlider({

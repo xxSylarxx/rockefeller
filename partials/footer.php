@@ -102,8 +102,10 @@
 
     <div style="padding-top: 11rem;">
         <div class="row d-flex justify-content-center ">
-            <div class="col-lg-3 ">
-                <div><img src="./public/img/icons/logo_isp_blanco.png" class="img-fluid" alt="" width="50%" style="filter: drop-shadow(0 0 5px rgb(246, 252, 251));"></div>
+            <div class="col-lg-3">
+                <div class="d-flex justify-content-center">
+                    <img src="./public/img/icons/escudo.png" class="img-fluid" alt="" width="50%" style="filter: drop-shadow(0 0 5px rgb(246, 252, 251));">
+                </div>
                 <br>
                 <div>
                     <p style="color:var(--color5);text-align:start; font-weight:none;">El Instituto de Sistemas es una comunidad educativa comprometida con el aprendizaje y la innovación en el ámbito tecnológico.</p>
@@ -150,26 +152,36 @@
                             </a>
                         </div>
                     </div>
+                    <div class="col-lg-2">
+                        <div style="border-radius:50%;background:white;width:40px;height:40px;padding-top:4px;">
+                            <a href="https://wa.me/+51916144934" style="color:var(--color1);font-size:20px;" target="_blank">
+                                <center><i class="fab fa-whatsapp"></i></center>
+                            </a>
+                        </div>
+                    </div>
                 </div>
                 <br>
 
             </div>
 
-            <div class="col-lg-3 px-4">
+            <div class="col-lg-2 px-3">
                 <div>
-                    <h3 style="color:var(--color5);font-weight:bold;">Nuestras Carreras</h3>
+                    <h3 style="color:var(--color5);font-weight:bold;">Navegación</h3>
                 </div>
                 <div class="py-2">
-                    <p style="color:var(--color5);font-weight:none;" class="m-0"> - Administración de Empresas</p>
+                    <p style="color:var(--color5);font-weight:none;" class="m-0"> - Nosostros</p>
                 </div>
                 <div class="py-2">
-                    <p style="color:var(--color5);font-weight:none;" class="m-0"> - Locución Radial y Televisiva</p>
+                    <p style="color:var(--color5);font-weight:none;" class="m-0"> - Educación Inicial</p>
                 </div>
                 <div class="py-2">
-                    <p style="color:var(--color5);font-weight:none;" class="m-0"> - Comunicación Audiovisual</p>
+                    <p style="color:var(--color5);font-weight:none;" class="m-0"> - Convenios</p>
                 </div>
                 <div class="py-2">
-                    <p style="color:var(--color5);font-weight:none;" class="m-0"> - Periodismo Radial y Televisivo</p>
+                    <p style="color:var(--color5);font-weight:none;" class="m-0"> - Transparencia</p>
+                </div>
+                <div class="py-2">
+                    <p style="color:var(--color5);font-weight:none;" class="m-0"> - Noticias</p>
                 </div>
 
 
@@ -177,19 +189,17 @@
             </div>
             <div class="col-lg-3 ">
                 <div>
-                    <h3 style="color:var(--color5);font-weight:bold;">Nuestras Cursos</h3>
+                    <h3 style="color:var(--color5);font-weight:bold;">Contáctanos</h3>
                 </div>
                 <div class="py-2">
-                    <p style="color:var(--color5);font-weight:none;" class="m-0"> - Administración de Empresas</p>
+                    <p style="color:var(--color5);font-weight:none;" class="m-0"> <i class="fas fa-phone-volume"></i> +51 916 144 934</p>
                 </div>
                 <div class="py-2">
-                    <p style="color:var(--color5);font-weight:none;" class="m-0"> - Locución Radial y Televisiva</p>
+                    <p style="color:var(--color5);font-weight:none;" class="m-0"><a class="text-white" href="https://maps.app.goo.gl/aV61HX9XxMQny9S2A"> <i class="fas fa-location-arrow"></i> Av. 9 de Diciembre 378 Lima. (Ex – Paseo Colon).</a>
+                    </p>
                 </div>
                 <div class="py-2">
-                    <p style="color:var(--color5);font-weight:none;" class="m-0"> - Comunicación Audiovisual</p>
-                </div>
-                <div class="py-2">
-                    <p style="color:var(--color5);font-weight:none;" class="m-0"> - Periodismo Radial y Televisivo</p>
+                    <p style="color:var(--color5);font-weight:none;" class="m-0"> <i class="far fa-clock"></i> Horario de atención: Lunes a Sábados de 9:00 am a 7:00 pm.</p>
                 </div>
 
 
@@ -224,10 +234,10 @@
         </div>
 
         <div class="row d-flex justify-content-start py-5" style="position: relative;">
-            <a style="position: absolute;color:var(--color2);background:var(--color2);width:50px;height:50px;border-radius:5px;display:flex;text-align:center;align-items:center;justify-content:center;left:99%;top:-16%;" href="#carreras">
-                <span><i class="fas fa-chevron-up" style="color:var(--color5);font-size:1.5rem;"></i></span>
+            <a style="position: absolute;color:var(--color2);background:var(--color2);width:50px;height:50px;border-radius:5px;display:flex;text-align:center;align-items:center;justify-content:center;left:99%;top:-16%;" href="#">
+                <span><i class="fas fa-chevron-up" style="color:var(--color1);font-size:1.5rem;"></i></span>
             </a>
-            <div class="col-lg-12 "><span style="color:var(--color5);text-align:center;display:block;">© 2025 Todos los derechos reservados, Instituto Sistemas.</span></div>
+            <div class="col-lg-12 "><span style="color:var(--color5);text-align:center;display:block;">© 2025 Todos los derechos reservados, Instituto Pedagógico Nelson Rockefeller.</span></div>
         </div>
 
     </div>
