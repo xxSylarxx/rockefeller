@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +11,7 @@
     <link rel="stylesheet" href="./public/css/animate.min.css">
     <link rel="stylesheet" href="./public/css/bootstrap.min.css">
     <link rel="stylesheet" href="./public/css/web.css">
-    <link rel="stylesheet" href="./portadas-carreras/pcarrera<?php echo $_GET['id']; ?>.css">
+    <link rel="stylesheet" href="./portadas-cursos/pcurso<?php echo $_GET['id']; ?>.css">
     <!-- owl -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
@@ -105,7 +104,7 @@
             /*   background: url('./public/img/galeria/capacitacion2.jpg'); */
             /* background-attachment: fixed; */
             background-size: 100%;
-            background-position: center 30%;
+            background-position: center 10%;
             padding-top: 10rem;
             padding-bottom: 10rem;
             color: white;
@@ -157,7 +156,7 @@
                     <?php
                     switch ($_GET['id']) {
                         case '1':
-                            echo 'ADMINISTRACIÓN DE EMPRESAS';
+                            echo 'PERIODISMO DEPORTIVO';
                             break;
                         case '2':
                             echo 'LOCUCIÓN RADIAL Y TELEVISIVA';
@@ -169,7 +168,7 @@
                             echo 'PERIODISMO RADIAL Y TELEVISIVO';
                             break;
                         default:
-                            echo 'CARRERAS';
+                            echo 'CURSOS';
                             break;
                     }
 
@@ -190,16 +189,17 @@
         </div> -->
         <div class="row justify-content-between mt-4" style="padding-top: 3rem; padding-bottom: 7rem;">
             <div class="col-md-8">
-                <?php include_once './carreras/carrera' . $_GET['id'] . '.php' ?>
+                <?php include_once './cursos/curso' . $_GET['id'] . '.php' ?>
                 <div class="col-md text-center pt-5">
-                    <a href="./carreras.php"><button class="button5">Ver Más</button></a>
+                    <a href="./cursos.php"><button class="button5">Ver Más</button></a>
                 </div>
 
             </div>
 
             <div class="col-md-4 my-2">
                 <div class="mx-4 sticky-col">
-                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FISPinstituto%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=928526382184489" width="100%" height="650" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Finstitutopedagogiconelsonrockefeller&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="100%" height="650" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                   
                 </div>
             </div>
 

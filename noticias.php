@@ -194,23 +194,24 @@
                         <a href="view.php?id=1">
                             <div class="card shadow-sm h-100" style="background: rgb(248, 248, 248);">
                                 <span class="news">Noticias</span>
-                                <img src="./public/img/galeria/noticia1.jpg" width="100%" height="300">
+                                <img src="./public/img/galeria/portada_pub1.jpg" width="100%" height="300">
 
                                 <div class="card-body">
 
                                     <div class="row ">
                                         <div class="">
                                             <i class="fas fa-calendar-alt" aria-hidden="true"></i>
-                                            <span class="ms-2">01-04-2025</span>
+                                            <span class="ms-2">15-08-2025</span>
                                         </div>
                                         <div class="pt-3">
-                                            <h5 class="fw-bold text-uppercase" style="font-size: 18px;color:var(--color9);">COMUNICADO</h5>
+                                            <h5 class="fw-bold text-uppercase" style="font-size: 18px;color:var(--color9);">Examen de Admision 2025</h5>
                                         </div>
 
                                     </div>
 
                                     <div class="detalle">
-                                        Comunicado importante del Instituto Sistemas Perú, sobre el proceso de titulación
+                                        Instituto de Educación Superior Pedagógica Privada Nelson Rockefeller
+                                    📢 EXAMEN DE ADMISIÓN 2025-II ( Presencial )
                                     </div>
 
                                 </div>
@@ -227,14 +228,14 @@
                         <a href="view.php?id=2">
                             <div class="card shadow-sm h-100" style="background: rgb(248, 248, 248);">
                                 <span class="news">Noticias</span>
-                                <img src="./public/img/galeria/noticia2.jpg" width="100%" height="300">
+                                <img src="./public/img/galeria/portada_pub2.jpg" width="100%" height="300">
 
                                 <div class="card-body">
 
                                     <div class="row ">
                                         <div class="">
                                             <i class="fas fa-calendar-alt" aria-hidden="true"></i>
-                                            <span class="ms-2">01-04-2025</span>
+                                            <span class="ms-2">15-08-2025</span>
                                         </div>
                                         <div class="pt-3">
                                             <h5 class="fw-bold text-uppercase" style="font-size: 18px;color:var(--color9);">CONVENIO CON LA RED DE PARÁMEDICOS DEL PERÚ </h5>
@@ -260,14 +261,14 @@
                         <a href="view.php?id=3">
                             <div class="card shadow-sm h-100" style="background: rgb(248, 248, 248);">
                                 <span class="news">Noticias</span>
-                                <img src="./public/img/galeria/noticia3.jpg" width="100%" height="300">
+                                <img src="./public/img/galeria/portada_pub3.jpg" width="100%" height="300">
 
                                 <div class="card-body">
 
                                     <div class="row ">
                                         <div class="">
                                             <i class="fas fa-calendar-alt" aria-hidden="true"></i>
-                                            <span class="ms-2">01-04-2025</span>
+                                            <span class="ms-2">15-08-2025</span>
                                         </div>
                                         <div class="pt-3">
                                             <h5 class="fw-bold text-uppercase" style="font-size: 18px;color:var(--color9);">TALLER DE PODCAST</h5>

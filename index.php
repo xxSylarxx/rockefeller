@@ -624,54 +624,61 @@
             <br>
             <br>
             <div class="row">
-                <div class="col-lg-4"><div class="carreras_slider">
-                    <div class="content-carrera-curso">
-                        <div class="ccarrera-curso-img">
-                            <img src="./public/img/galeria/portada_pub1.jpg" alt="">
-                        </div>
-                        <div class="ccarrera-curso-cuerpo p-4">
-                            <h3 class="text-center" style="color:var(--color1);">Periodismo Deportivo</h3>
+                <div class="col-lg-4">
+                    <div class="carreras_slider">
+                        <div class="content-carrera-curso">
+                            <div class="ccarrera-curso-img">
+                                <img src="./public/img/galeria/portada_pub1.jpg" alt="">
+                            </div>
+                            <div class="ccarrera-curso-cuerpo p-4">
+                                <h3 class="text-center" style="color:var(--color1);">Examen de Admision 2025</h3>
 
-                            <p>El periodismo deportivo es una especialización del periodismo que se enfoca en la cobertura de eventos deportivos, atletas y temas relacionados con el deporte. </p>
-                            <br>
-                            <div class="col-lg  d-flex justify-content-center">
-                                <a class="btn" href="./view3.php?id=1">Ver Más&nbsp;&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
+                                <p>Instituto de Educación Superior Pedagógica Privada Nelson Rockefeller
+                                    📢 EXAMEN DE ADMISIÓN 2025-II ( Presencial )</p>
+                                <br>
+                                <div class="col-lg  d-flex justify-content-center">
+                                    <a class="btn" href="./view.php?id=1">Ver Más&nbsp;&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div></div>
-                <div class="col-lg-4"><div class="carreras_slider">
-                    <div class="content-carrera-curso">
-                        <div class="ccarrera-curso-img">
-                            <img src="./public/img/galeria/portada_pub1.jpg" alt="">
-                        </div>
-                        <div class="ccarrera-curso-cuerpo p-4">
-                            <h3 class="text-center" style="color:var(--color1);">Periodismo Deportivo</h3>
+                </div>
+                <div class="col-lg-4">
+                    <div class="carreras_slider">
+                        <div class="content-carrera-curso">
+                            <div class="ccarrera-curso-img">
+                                <img src="./public/img/galeria/portada_pub2.jpg" alt="">
+                            </div>
+                            <div class="ccarrera-curso-cuerpo p-4">
+                                <h3 class="text-center" style="color:var(--color1);">Colegio de Profesores del Perú</h3>
 
-                            <p>El periodismo deportivo es una especialización del periodismo que se enfoca en la cobertura de eventos deportivos, atletas y temas relacionados con el deporte. </p>
-                            <br>
-                            <div class="col-lg  d-flex justify-content-center">
-                                <a class="btn" href="./view3.php?id=1">Ver Más&nbsp;&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
+                                <p>Convenio de Cooperación Intersinstitucional entre el Colegiode Profesores del Perú y el Instituto de Educación Superior Pedagógico Privado "Nelson Rockefeller".</p>
+                                <br>
+                                <div class="col-lg  d-flex justify-content-center">
+                                    <a class="btn" href="./view.php?id=2">Ver Más&nbsp;&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div></div>
-                <div class="col-lg-4"><div class="carreras_slider">
-                    <div class="content-carrera-curso">
-                        <div class="ccarrera-curso-img">
-                            <img src="./public/img/galeria/portada_pub1.jpg" alt="">
-                        </div>
-                        <div class="ccarrera-curso-cuerpo p-4">
-                            <h3 class="text-center" style="color:var(--color1);">Periodismo Deportivo</h3>
+                </div>
+                <div class="col-lg-4">
+                    <div class="carreras_slider">
+                        <div class="content-carrera-curso">
+                            <div class="ccarrera-curso-img">
+                                <img src="./public/img/galeria/portada_pub3.jpg" alt="">
+                            </div>
+                            <div class="ccarrera-curso-cuerpo p-4">
+                                <h3 class="text-center" style="color:var(--color1);">Comunicado de Dirección</h3>
 
-                            <p>El periodismo deportivo es una especialización del periodismo que se enfoca en la cobertura de eventos deportivos, atletas y temas relacionados con el deporte. </p>
-                            <br>
-                            <div class="col-lg  d-flex justify-content-center">
-                                <a class="btn" href="./view3.php?id=1">Ver Más&nbsp;&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
+                                <p>Se les informa a los alumnos que a partir del día lunes 23 de junio del 2025 se emitirán las boletas de notas en forma gratuita; la demora por la falsificación de documentos de la institución como boleta de notas, constancia de estudios, certificado de estudios, constancia de egresados cobranzas irregulares y otros. </p>
+                                <br>
+                                <div class="col-lg  d-flex justify-content-center">
+                                    <a class="btn" href="./view.php?id=3">Ver Más&nbsp;&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div></div>
+                </div>
             </div>
     </section>
 
