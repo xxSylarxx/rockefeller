@@ -245,7 +245,7 @@
                                 <p>El periodismo deportivo es una especialización del periodismo que se enfoca en la cobertura de eventos deportivos, atletas y temas relacionados con el deporte. </p>
                                 <br>
                                 <div class="col-lg  d-flex justify-content-center">
-                                    <a class="btn" href="./view3.php?id=1">Ver Más&nbsp;&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
+                                    <a class="btn" href="./view.php?id=1">Ver Más&nbsp;&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
                                 </div>
                             </div>
                         </div>
