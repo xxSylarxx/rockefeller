@@ -150,7 +150,7 @@
                         <a class="nav-link" href="./noticias.php">Noticias</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./admision.php">Noticias</a>
+                        <a class="nav-link" href="./admision.php">Admisión</a>
                     </li>
                     <li class="nav-item me-0">
 
@@ -171,7 +171,6 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header d-flex flex-column">
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 <h5 class="modal-title" id="registerModalLabel">Regístrate aquí</h5>
                 <p>En breve, un profesional te contactará.</p>

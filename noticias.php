@@ -237,7 +237,7 @@
 
             </div>
  -->
-            <img src="./public/img/portadas/portada_interna.jpg" width="100%" height="600">
+            <img src="./public/img/portadas/portada_interna.jpg" width="100%" >
         </div>
          <section id="cursos">
             <div class="container-fluid">
