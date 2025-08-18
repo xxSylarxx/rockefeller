@@ -38,187 +38,122 @@
     <!-- ventana emergente admin -->
 
     <style>
-        
+        #lema {
+            padding-top: 7rem;
+            padding-bottom: 2rem;
+        }
 
-        #carreras {
-            padding-top: 1rem;
+        .subcontainer {
+            background: rgb(0 0 0 / 10%);
+            position: absolute;
+            /* left: 10%; */
+            padding-left: 10%;
+            padding-bottom: 1%;
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: start;
+            align-items: flex-end;
+            height: 100%;
+        }
+
+        .portada img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            /*   object-fit: cover;
+            filter: brightness(50%); 
+            object-position: top;*/
+        }
+
+        .portada .titleA {
+            margin-bottom: 1.5rem;
+        }
+
+        .portada a {
+            color: #fff;
+        }
+
+        .portada h1 {
+            color: #fff;
+        }
+
+        #noticias {
+            padding-top: 5rem;
             padding-bottom: 9rem;
-            padding-left: 10%;
-            padding-right: 10%;
         }
 
-        .content-carrera-curso {
-            background-color: var(--color2);
-            border-radius: 15px;
-            position: relative;
-            height: 490px;
-            overflow: hidden;
-            margin-left: 10px;
-            margin-right: 15px;
+        #noticias h2 {
+            font-size: 2.5rem !important;
+            text-align: center;
+            padding-bottom: 2.5rem;
         }
 
-        .ccarrera-curso-img img {
-            border-radius: 15px;
-            width: 100%;
-        }
-
-        .ccarrera-curso-cuerpo {
-            background-color: var(--color2);
-            border-radius: 15px;
+        #noticias .card .news {
             position: absolute;
-            bottom: 4%;
-            width: 100%;
-            padding: 20px;
-            /*  transition: all 0.6s ease-in-out; */
+            top: 20px;
+            left: 16px;
+            border-radius: 20px;
+            padding: 4px 12px;
+            background-color: var(--color1);
+            color: white;
+            font-size: 14px;
+            font-weight: bold;
+            transform: translateY(-5%);
+
         }
 
-        /* Párrafo con altura limitada inicialmente */
-        .ccarrera-curso-cuerpo p {
+        #noticias div.card {
+            border-radius: 10px;
+            transition: .3s;
+
+
+        }
+
+        #noticias div.card:hover {
+            transform: scale(1.06);
+        }
+
+        #noticias .card .detalle {
+
+            text-overflow: ellipsis;
+
+            display: -webkit-box;
+
+            -webkit-line-clamp: 2;
+
+            -webkit-box-orient: vertical;
+
+            overflow: hidden;
+
             text-align: justify;
-            /* color: var(--color5); */
-            max-height: 70px;
-            overflow: hidden;
-            transition: .2s ease-in;
-        }
 
-        /* Botón oculto inicialmente */
-        .ccarrera-curso-cuerpo .btn {
-            position: absolute;
-            transform: translateY(50px);
-            transition: .2s ease-in;
+            font-size: 17px;
 
+            color: #747474;
+
+            line-height: 1.6;
 
         }
 
-        /* Efecto al pasar el mouse */
-        .ccarrera-curso-cuerpo:hover p {
-
-            max-height: 190px;
-            transition: max-height .5s ease-out;
-
+        #noticias img {
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            object-fit: cover;
+            object-position: top;
         }
 
-        .ccarrera-curso-cuerpo:hover .btn {
-
-            transform: translateY(-20px);
-            transition: .5s ease-out;
-
-        }
-
-        /* Estilos de Slider cursos */
-        /* Ocultar los botones predeterminados */
-        .owl-nav {
-            display: flex;
-            justify-content: space-between;
-            position: absolute;
-            top: 40%;
-            width: 100%;
-            transform: translateY(-50%);
-            pointer-events: none;
-            /* Evita que bloqueen la interacción con las imágenes */
-        }
-
-        /* Estilizar los botones */
-        .owl-prev,
-        .owl-next {
-            background: var(--color1) !important;
-            color: white !important;
-            border-radius: 10px !important;
-            width: 60px;
-            height: 60px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 20px;
-            cursor: pointer;
-            pointer-events: all;
-            /* Permite la interacción con los botones */
-            transition: background 0.3s;
-        }
-
-        .owl-prev:hover,
-        .owl-next:hover {
-            background: var(--color2) !important;
-        }
-
-        /* Posicionar los botones */
-        .owl-prev {
-            position: absolute;
-            left: -50px;
-        }
-
-        .owl-next {
-            position: absolute;
-            right: -70px;
-        }
-
-        #cursos {
-            padding-top: 8rem;
-            padding-bottom: 13rem;
-            padding-left: 10%;
-            padding-right: 10%;
-        }
-
-        /* seccion de resultados */
-        #resultados {
-            margin-top: 2rem;
-            background: linear-gradient(to bottom, var(--color1) 100%, #ffff 10%, #ffff 50%), url('./public/img/web/bg-contador.jpg') !important;
-            background-attachment: fixed;
-            background-size: cover;
-            background-size: 100% !important;
-            padding-top: 4rem;
-            padding-bottom: 4rem;
-        }
-
-        #resultados h2 {
-            color: var(--color9);
-            text-align: center;
-            font-weight: bold;
-            padding-bottom: 6rem;
-        }
-
-        #resultados p {
-            margin: 1.5rem;
-            font-size: .95rem !important;
-            color: white;
-            text-align: start;
-            /*  text-transform: lowercase; */
-            margin: 2rem;
+        #noticias .text-info {
+            background: transparent;
+            font-size: 17px;
         }
 
 
-        #resultados .counter {
-
-            color: white;
-            font-weight: bold;
-            font-size: 3.9rem;
-            padding: 0;
-            margin: 0;
-            line-height: 1;
-            height: 40px;
-            text-align: center;
-            text-align: center;
-            align-items: center;
-
-        }
+        @media screen and (max-width: 500px) {
 
 
-        @media screen and (max-width:1200px) {
-            #carouselBanner div.carousel-item img {
-                height: 100%;
-            }
-
-            div.content-banner .frame-responsive iframe {
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-            }
-
-            div.content-banner video {
-                width: 100%;
-                height: 100%;
+            .portada img {
+                height: 30vh;
             }
         }
     </style>
@@ -239,42 +174,52 @@
  -->
             <img src="./public/img/portadas/portada_interna.jpg" width="100%" height="600">
         </div>
-         <section id="cursos">
-            <div class="container-fluid">
+        <section id="noticias">
+            <div class="container">
                 <div class="row">
-                    <div class="col-lg">
-                        <h2 class="text-center">Convenios</h2>
+                    <div class="col text-start">
+                        <h2>Transparencia</h2>
                     </div>
                 </div>
-                <br>
-                <br>
-                <div class="row d-flex justify-content-center">
-                
-                    <div class="col-lg-4">
-                        <div class="carreras_slider">
-                            <div class="content-carrera-curso">
-                                <div class="ccarrera-curso-img">
-                                    <img src="./public/img/galeria/portada_pub2.jpg" alt="">
-                                </div>
-                                <div class="ccarrera-curso-cuerpo p-4">
-                                    <h3 class="text-center" style="color:var(--color1);">Colegio de Profesores del Perú</h3>
+            </div>
+            <div class="container-fluid">
+                <div class="row d-flex justify-content-center" style="padding-left:8%;padding-right:8%;">
+                    <div class="col-md-4 px-3 my-3">
+                        <a href="view4.php?id=1">
+                            <div class="card shadow-sm h-100" style="background: rgb(248, 248, 248);">
+                                <span class="news">Transparencia</span>
+                                <img src="./public/img/galeria/foto-reglamento-interno.png" width="100%" height="300">
 
-                                    <p>Convenio de Cooperación Intersinstitucional entre el Colegiode Profesores del Perú y el Instituto de Educación Superior Pedagógico Privado "Nelson Rockefeller".</p>
-                                    <br>
-                                    <div class="col-lg  d-flex justify-content-center">
-                                        <a class="btn" href="./view2.php?id=1">Ver Más&nbsp;&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
+                                <div class="card-body">
+
+                                    <div class="row ">
+                                        <div class="">
+                                            <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+                                            <span class="ms-2">15-08-2025</span>
+                                        </div>
+                                        <div class="pt-3">
+                                            <h5 class="fw-bold text-uppercase" style="font-size: 18px;color:var(--color9);">Reglamento Interno 2025</h5>
+                                        </div>
                                     </div>
+                                    <!-- <div class="detalle">
+                                        Instituto de Educación Superior Pedagógica Privada Nelson Rockefeller
+                                    📢 EXAMEN DE ADMISIÓN 2025-II ( Presencial )
+                                    </div> -->
                                 </div>
+
+                                <div class="card-footer text-info d-flex justify-content-center align-items-center my-auto">
+
+                                    <a href="view4.php?id=1">Ver más&nbsp;&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
+                                </div>
+
                             </div>
-                        </div>
+                        </a>
                     </div>
-                    
                 </div>
+            </div>
         </section>
 
-
-        <br><br><br>
-        <br> <br>
+        <br>
 
     </main>
     <?php include_once 'partials/footer.php'; ?>
@@ -377,5 +322,6 @@
     </script>
 
 </body>
+
 
 </html>

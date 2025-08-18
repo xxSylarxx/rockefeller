@@ -673,7 +673,7 @@
                                 <p>Se les informa a los alumnos que a partir del día lunes 23 de junio del 2025 se emitirán las boletas de notas en forma gratuita; la demora por la falsificación de documentos de la institución como boleta de notas, constancia de estudios, certificado de estudios, constancia de egresados cobranzas irregulares y otros. </p>
                                 <br>
                                 <div class="col-lg  d-flex justify-content-center">
-                                    <a class="btn" href="./view.php?id=3">Ver Más&nbsp;&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
+                                    <a class="btn" href="./view.php?id=2">Ver Más&nbsp;&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
                                 </div>
                             </div>
                         </div>

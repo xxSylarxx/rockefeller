@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="./public/css/animate.min.css">
     <link rel="stylesheet" href="./public/css/bootstrap.min.css">
     <link rel="stylesheet" href="./public/css/web.css">
-    <link rel="stylesheet" href="./portadas-cursos/pcurso<?php echo $_GET['id']; ?>.css">
     <!-- owl -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
@@ -101,35 +100,6 @@
             font-weight: bold;
         }
 
-        #lema {
-            /*   background: url('./public/img/galeria/capacitacion2.jpg'); */
-            /* background-attachment: fixed; */
-            background-size: 100%;
-            background-position: center 10%;
-            padding-top: 10rem;
-            padding-bottom: 10rem;
-            color: white;
-            background-repeat: no-repeat;
-            position: relative;
-        }
-
-        #lema::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.5);
-            /* Black filter with 50% opacity */
-            z-index: 1;
-        }
-
-        #lema>* {
-            position: relative;
-            z-index: 2;
-        }
-
         .sticky-col {
             position: sticky;
             top: 120px;
@@ -167,52 +137,16 @@
     <?php include_once 'partials/header.php'; ?>
 
 
-    <section class="container-fluid" id="lema">
-
-        <div class="row justify-content-center">
-
-            <div class="col-lg-9 text-center">
-
-                <h2 class="mb-4" style="letter-spacing: 1px;">
-                    <?php
-                    switch ($_GET['id']) {
-                        case '1':
-                            echo 'PROSPECTO';
-                            break;
-                        case '2':
-                            echo 'PREGUNTAS FRECUENTES';
-                            break;
-                        case '3':
-                            echo 'PROTOCOLO PROCESO DE ADMISION';
-                            break;
-                        case '4':
-                            echo 'CRONOGRAMA';
-                            break;
-                        case '5';
-                            echo 'MANUAL POSTULANTES';
-                            break;
-                        case '6';
-                            echo 'RECLAMOS Y DENUNCIAS';
-                            break;
-                        case '7';
-                            echo 'INGRESANTES SEGUNDA FASE';
-                            break;
-                        case '8';
-                            echo 'PROCESO DE INSCRIPCIÓN';
-                            break;
-                        default:
-                            echo 'ADMISION';
-                            break;
-                    }
-
-                    ?>
+    <!-- <section class="container-fluid portada px-0">
+        <div class="titleContainer">
+            <div class="animate__animated animate__fadeInLeft">
+                <h2 class="title1">
+                    Inicial
                 </h2>
-
             </div>
         </div>
-    </section>
-
-
+        <img src="./public/img/web/inicial-portada.jpg" alt="">
+    </section> -->
     <section class="container lista">
         <!-- <div>
             <ol class="breadcrumb bg-white pl-0">
@@ -223,17 +157,16 @@
         <div class="row justify-content-between mt-4" style="padding-top: 3rem; padding-bottom: 7rem;">
             <div class="col-md-8">
                 <div id="body-pub">
-                    <?php include_once './admision/admision' . $_GET['id'] . '.php' ?>
+                    <?php include_once './transparencia/transparencia' . $_GET['id'] . '.php' ?>
                     <div class="col-md text-center pt-5">
-                        <a href="./admision.php"><button class="button5">Ver Más</button></a>
+                        <a href="./transparencia.php"><button class="button5">Ver Más</button></a>
                     </div>
                 </div>
             </div>
 
             <div class="col-md-4 my-2">
                 <div class="mx-4 sticky-col">
-                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Finstitutopedagogiconelsonrockefeller&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="100%" height="650" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-
+                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Finstitutopedagogiconelsonrockefeller&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="100%" height="600" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
                 </div>
             </div>
 
