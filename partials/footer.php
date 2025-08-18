@@ -141,7 +141,10 @@
                     <div class="col-lg-2">
                         <div style="border-radius:50%;background:white;width:40px;height:40px;padding-top:4px;">
                             <a href="https://www.tiktok.com/@iesppnelsonrockefeller" style="color:var(--color1);font-size:20px;" target="_blank">
-                                <center><i class="fab fa-tiktok"></i></center>
+                                <center><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 448 512">
+                                        <path d="M448,209.91a210,210,0,0,1-122.77-39.25V346.5a165.65,165.65,0,1,1-141.47-163.58v84.86a82.26,82.26,0,1,0,57.29,78.72V0h84.18A126.94,126.94,0,0,0,448,126.83Z" />
+                                    </svg>
+                                </center>
                             </a>
                         </div>
                     </div>
