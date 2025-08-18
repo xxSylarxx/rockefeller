@@ -1,6 +1,6 @@
 <style>
     .nav-item {
-        padding-left: 1rem;
+        padding-left: 0rem;
     }
 
     .navbar-dark .navbar-toggler {
@@ -36,6 +36,10 @@
         font-size: 18px;
     }
 
+    .img-logo {
+        height: 55px;
+    }
+
     /* ============ desktop view ============ */
     @media all and (min-width: 992px) {
         .dropdown-menu li {
@@ -55,7 +59,7 @@
         }
 
         .dropdown-menu>li:hover {
-            background-color: #f1f1f1
+            background-color: #f1f1f1;
         }
 
         .dropdown-menu>li:hover>.submenu {
@@ -74,13 +78,19 @@
         }
     }
 
+   /*  @media screen and (min-width:992px) and (max-width:1400px) {
+        .img-logo {
+            height: 30px;
+        }
+    } */
+
     /* ============ small devices .end// ============ */
 </style>
 <header id="header" class="fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container ps-0">
             <a class="navbar-brand fs-4 fw-bold" style="letter-spacing: .08em;" href="./index.php">
-                <img src="./public/img/icons/logo-head.png" height="55">
+                <img class="img-logo" src="./public/img/icons/logo-head.png">
                 <!--   <span>sadasdsad</span> -->
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false">
@@ -94,11 +104,21 @@
                     <li class="nav-item">
                         <a class="nav-link" href="./nosotros.php">Nosotros</a>
                     </li>
-                   <!--  <li class="nav-item">
+                    <!--  <li class="nav-item">
                         <a class="nav-link" href="./carreras.php">Carreras</a>
                     </li> -->
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="./cursos.php">Educacion Inicial</a>
+                    </li> -->
+                    <li class="nav-item" onmouseover="showMenuHover(0)" onmouseout="showMenuHover2(0)">
+                        <a class="nav-link" href="#" id="navbarDropdown">
+                            Educación Inicial &nbsp;<i class="fas fa-chevron-down" style="font-size:12px;"></i>
+                        </a>
+                        <ul class="dropdown-menu animate__animated animate__fadeInUp" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item py-2" href="./descripcion.php">Descripción</a></li>
+                            <li><a class="dropdown-item py-2" href="./campo-laboral.php">Campo Laboral</a></li>
+                            <li><a class="dropdown-item py-2" href="./plan-estudios.php">Plan de Estudios</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./convenios.php">Convenios</a>
@@ -131,7 +151,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="./noticias.php">Noticias</a>
                     </li>
-                    <li class="nav-item me-0" >
+                    <li class="nav-item me-0">
 
                         <a class="nav-link round" href="javascript:void(0);" onclick="openRegisterModal()">Contacto</a>
                         <script>
@@ -150,7 +170,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header d-flex flex-column">
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 <h5 class="modal-title" id="registerModalLabel">Regístrate aquí</h5>
                 <p>En breve, un profesional te contactará.</p>
 

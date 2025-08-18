@@ -40,6 +40,19 @@
     <!-- ventana emergente admin -->
 
     <style>
+        #bienvenida {
+            padding-top: 7rem;
+            padding-bottom: 5rem;
+        }
+
+        #bienvenida h2 {
+            text-align: center;
+        }
+
+        #bienvenida p {
+            text-align: justify;
+        }
+
         #historia {
             padding-top: 7rem;
             padding-bottom: 2rem;
@@ -48,6 +61,7 @@
         #historia h2 {
             text-align: center;
         }
+
 
         #lema {
             padding-top: 7rem;
@@ -199,7 +213,8 @@
             left: -4%;
             object-fit: cover;
         }
-        #beneficios{
+
+        #beneficios {
             padding-top: 6rem;
             padding-bottom: 6rem;
         }
@@ -256,7 +271,32 @@
  -->
             <img src="./public/img/portadas/portada_interna.jpg" width="100%" height="600">
         </div>
-        <section id="historia">
+        <section id="bienvenida">
+            <div class="container">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg">
+                        <h2>
+                            PALABRAS DE BIENVENIDA
+                        </h2>
+                        <br>
+
+                        <p>Bienvenidos al Instituto de Educación Superior Pedagógico Privado “Nelson Rockefeller”.
+                            Es un honor para mí, como director, darles la más cordial bienvenida a nuestra casa de estudios, dedicada con vocación y compromiso a la formación de futuras maestras y maestros de Educación Inicial.</p>
+                        <p>En el Instituto “Nelson Rockefeller” creemos firmemente que la educación es la base del desarrollo humano y social, y que todo gran cambio empieza desde la infancia. Por ello, hemos asumido la responsabilidad de formar profesionales altamente capacitados, con sólidos valores éticos, pedagógicos y humanos, capaces de transformar la realidad educativa de nuestro país desde las primeras etapas del desarrollo infantil.
+                        </p>
+                        <p>Nuestra carrera profesional de Educación Inicial, con una duración de cinco años, está diseñada para brindar una formación integral, combinando la teoría con la práctica, y fomentando la creatividad, el pensamiento crítico y el amor por la enseñanza. Nos enorgullece contar con un equipo docente comprometido, instalaciones adecuadas y una comunidad educativa que valora el respeto, la inclusión y la excelencia académica.</p>
+                        <p>Los invito a conocer más sobre nuestra propuesta formativa y a ser parte de este camino apasionante de formación profesional. Juntos construiremos una educación de calidad para las futuras generaciones.
+                        </p>
+                        <span style="text-align: center;display:block;font-weight:bold;">¡Sean todos bienvenidos!</span>
+                        <span style="text-align:right;display:block;">Oswaldo Campos Monteza</span>
+                        <span style="text-align:right;display:block;font-weight:bold;">Director General</span>
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- <section id="historia">
             <div class="container">
                 <div class="row">
                     <div class="col-lg">
@@ -268,7 +308,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <!-- <section id="lema">
             <div class="container">
@@ -565,8 +605,8 @@
                 </div> -->
             </div>
         </section>
-        
-<!-- 
+
+        <!-- 
         
 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
