@@ -177,19 +177,31 @@
                     <?php
                     switch ($_GET['id']) {
                         case '1':
-                            echo 'PERIODISMO DEPORTIVO';
+                            echo 'PROSPECTO';
                             break;
                         case '2':
-                            echo 'LOCUCIÓN RADIAL Y TELEVISIVA';
+                            echo 'PREGUNTAS FRECUENTES';
                             break;
                         case '3':
-                            echo 'COMUNICACIÓN AUDIOVISUAL';
+                            echo 'PROTOCOLO PROCESO DE ADMISION';
                             break;
                         case '4':
-                            echo 'PERIODISMO RADIAL Y TELEVISIVO';
+                            echo 'CRONOGRAMA';
+                            break;
+                        case '5';
+                            echo 'MANUAL POSTULANTES';
+                            break;
+                        case '6';
+                            echo 'RECLAMOS Y DENUNCIAS';
+                            break;
+                        case '7';
+                            echo 'INGRESANTES SEGUNDA FASE';
+                            break;
+                        case '8';
+                            echo 'PROCESO DE INSCRIPCIÓN';
                             break;
                         default:
-                            echo 'CURSOS';
+                            echo 'ADMISION';
                             break;
                     }
 
@@ -210,7 +222,7 @@
         </div> -->
         <div class="row justify-content-between mt-4" style="padding-top: 3rem; padding-bottom: 7rem;">
             <div class="col-md-8">
-                <div id="body-pub">  
+                <div id="body-pub">
                     <?php include_once './admision/admision' . $_GET['id'] . '.php' ?>
                     <div class="col-md text-center pt-5">
                         <a href="./admision.php"><button class="button5">Ver Más</button></a>

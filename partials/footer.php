@@ -79,7 +79,7 @@
                             <p> Descubre nuestras opciones de admisión y selecciona <br> la que mejor se ajuste a ti.</p>
                             <br>
                             <div class="col-lg  d-flex justify-content-start">
-                                <a class="btn" href="javascript:void(0);" onclick="openRegisterModal()">Ver Más&nbsp;&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
+                                <a class="btn" href="./admision.php" onclick="openRegisterModal()">Ver Más&nbsp;&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
                                 <script>
                                     function openRegisterModal() {
                                         var registerModal = new bootstrap.Modal(document.getElementById('registerModal'));
@@ -169,19 +169,22 @@
                     <h3 style="color:var(--color5);font-weight:bold;">Navegación</h3>
                 </div>
                 <div class="py-2">
-                    <p style="color:var(--color5);font-weight:none;" class="m-0"> - Nosostros</p>
+                    <p style="color:var(--color5);font-weight:none;" class="m-0"> <a class="text-white" href="./nosotros.php"> - Nosostros</p></a>
                 </div>
                 <div class="py-2">
-                    <p style="color:var(--color5);font-weight:none;" class="m-0"> - Educación Inicial</p>
+                    <p style="color:var(--color5);font-weight:none;" class="m-0"><a class="text-white" href="./cursos.php"> - Educación Inicial</p></a>
                 </div>
                 <div class="py-2">
-                    <p style="color:var(--color5);font-weight:none;" class="m-0"> - Convenios</p>
+                    <p style="color:var(--color5);font-weight:none;" class="m-0"> <a class="text-white" href="./convenios.php">- Convenios</p></a>
                 </div>
                 <div class="py-2">
-                    <p style="color:var(--color5);font-weight:none;" class="m-0"> - Transparencia</p>
+                    <p style="color:var(--color5);font-weight:none;" class="m-0"> <a class="text-white" href="./transparencia.php"> - Transparencia</p></a>
                 </div>
                 <div class="py-2">
-                    <p style="color:var(--color5);font-weight:none;" class="m-0"> - Noticias</p>
+                    <p style="color:var(--color5);font-weight:none;" class="m-0"> <a class="text-white" href="./noticias.php"> - Noticias</p></a>
+                </div>
+                <div class="py-2">
+                    <p style="color:var(--color5);font-weight:none;" class="m-0"><a class="text-white" href="./admision.php"> - Admision</p></a>
                 </div>
 
 
@@ -192,7 +195,7 @@
                     <h3 style="color:var(--color5);font-weight:bold;">Contáctanos</h3>
                 </div>
                 <div class="py-2">
-                    <p style="color:var(--color5);font-weight:none;" class="m-0"> <i class="fas fa-phone-volume"></i> +51 916 144 934</p>
+                    <p style="color:var(--color5);font-weight:none;" class="m-0"> <i class="fas fa-phone-volume"></i><a class="text-white" href="tel:+51916144934"> +51 916 144 934</p></a>
                 </div>
                 <div class="py-2">
                     <p style="color:var(--color5);font-weight:none;" class="m-0"><a class="text-white" href="https://maps.app.goo.gl/aV61HX9XxMQny9S2A"> <i class="fas fa-location-arrow"></i> Av. 9 de Diciembre 378 Lima. (Ex – Paseo Colon).</a>
@@ -202,21 +205,19 @@
                     <p style="color:var(--color5);font-weight:none;" class="m-0"> <i class="far fa-clock"></i> Horario de atención: Lunes a Sábados de 9:00 am a 7:00 pm.</p>
                 </div>
 
-
-
             </div>
             <div class="col-lg-3 ">
                 <div>
                     <h3 style="color:var(--color5);font-weight:bold;">Noticias Recientes</h3>
                     <br>
-                    <a href="/entrada/complex-security">
+                    <a href="./view.php?id=2">
                         <div class="row d-flex justify-content-around">
-                            <div class="col-lg-5"><img src="./public/img/galeria/noticia1.jpg" style="border-radius:5px;object-fit:cover;height:100px;width:100%;object-position:top;" class="img-fluid" alt=""></div>
+                            <div class="col-lg-5"><img src="./public/img/galeria/portada_pub3.jpg" style="border-radius:5px;object-fit:cover;height:100px;width:100%;object-position:top;" class="img-fluid" alt=""></div>
                             <div class="col-lg-7 my-auto"><span style="color:var(--color5);">COMUNICADO</span></div>
                         </div>
                     </a>
                     <hr style="color:Var(--color2);">
-                    <a href="/entrada/examination-and-document-exchange-platfo">
+                    <a href="./entrada/examination-and-document-exchange-platfo">
                         <div class="row d-flex justify-content-around">
                             <div class="col-lg-5"><img src="./public/img/galeria/noticia2.jpg" style="border-radius:5px;object-fit:cover;height:100px;width:100%;object-position:top;" alt=""></div>
                             <div class="col-lg-7 my-auto"><span style="color:var(--color5);">CONVENIO CON LA RED DE PARÁMEDICOS DEL PERÚ </span></div>

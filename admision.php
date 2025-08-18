@@ -198,7 +198,7 @@
                                             <span class="ms-2">01-04-2025</span>
                                         </div>
                                         <div class="pt-3">
-                                            <h5 class="fw-bold text-uppercase" style="font-size: 18px;color:var(--color9);">Prospecto Admision</h5>
+                                            <h5 class="fw-bold text-uppercase" style="font-size: 18px;color:var(--color9);">PROSPECTO</h5>
                                         </div>
                                     </div>
                                     <div class="detalle">
@@ -228,7 +228,7 @@
                                             <span class="ms-2">15-08-2025</span>
                                         </div>
                                         <div class="pt-3">
-                                            <h5 class="fw-bold text-uppercase" style="font-size: 18px;color:var(--color9);">PREGUNTAS FRECUENTES ADMISION</h5>
+                                            <h5 class="fw-bold text-uppercase" style="font-size: 18px;color:var(--color9);">PREGUNTAS FRECUENTES</h5>
                                         </div>
 
                                     </div>
@@ -281,8 +281,177 @@
                             </div>
                         </a>
                     </div>
+                    <div class="col-md-4 px-3 my-3">
+                        <a href="view3.php?id=4">
+                            <div class="card shadow-sm h-100" style="background: rgb(248, 248, 248);">
+                                <span class="news">Admision</span>
+                                <img src="./public/img/galeria/cronograma-admision.png" width="100%" height="300">
 
+                                <div class="card-body">
 
+                                    <div class="row ">
+                                        <div class="">
+                                            <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+                                            <span class="ms-2">15-08-2025</span>
+                                        </div>
+                                        <div class="pt-3">
+                                            <h5 class="fw-bold text-uppercase" style="font-size: 18px;color:var(--color9);">CRONOGRAMA</h5>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="detalle">
+                                        Cronograma del examen de Admisión
+                                    </div>
+
+                                </div>
+
+                                <div class="card-footer text-info d-flex justify-content-center align-items-center my-auto">
+
+                                    <a href="view3.php?id=4">Ver más&nbsp;&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 px-3 my-3">
+                        <a href="view3.php?id=5">
+                            <div class="card shadow-sm h-100" style="background: rgb(248, 248, 248);">
+                                <span class="news">Admision</span>
+                                <img src="./public/img/galeria/manual-postulantes.png" width="100%" height="300">
+
+                                <div class="card-body">
+
+                                    <div class="row ">
+                                        <div class="">
+                                            <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+                                            <span class="ms-2">15-08-2025</span>
+                                        </div>
+                                        <div class="pt-3">
+                                            <h5 class="fw-bold text-uppercase" style="font-size: 18px;color:var(--color9);">MANUAL POSTULANTES</h5>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="detalle">
+                                        El manual del postulante tiene la intención de guiar al postulante en como
+                                        desenvolverse el día del examen y que pasos seguir para desarrollar el examen con
+                                        éxito
+                                    </div>
+
+                                </div>
+
+                                <div class="card-footer text-info d-flex justify-content-center align-items-center my-auto">
+
+                                    <a href="view3.php?id=5">Ver más&nbsp;&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 px-3 my-3">
+                        <a href="view3.php?id=6">
+                            <div class="card shadow-sm h-100" style="background: rgb(248, 248, 248);">
+                                <span class="news">Admision</span>
+                                <img src="./public/img/galeria/reclamos-denuncias.png" width="100%" height="300">
+
+                                <div class="card-body">
+
+                                    <div class="row ">
+                                        <div class="">
+                                            <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+                                            <span class="ms-2">15-08-2025</span>
+                                        </div>
+                                        <div class="pt-3">
+                                            <h5 class="fw-bold text-uppercase" style="font-size: 18px;color:var(--color9);">RECLAMOS Y DENUNCIAS</h5>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="detalle">
+                                        Se sugiere implementar el protocolo para la atención de reclamos para que los
+                                        usuarios que requieran hacer uso de este mecanismo cuenten con una
+                                        herramienta ú t i l
+                                    </div>
+
+                                </div>
+
+                                <div class="card-footer text-info d-flex justify-content-center align-items-center my-auto">
+
+                                    <a href="view3.php?id=6">Ver más&nbsp;&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 px-3 my-3">
+                        <a href="view3.php?id=7">
+                            <div class="card shadow-sm h-100" style="background: rgb(248, 248, 248);">
+                                <span class="news">Admision</span>
+                                <img src="./public/img/galeria/ingresantes-segundafase.png" width="100%" height="300">
+
+                                <div class="card-body">
+
+                                    <div class="row ">
+                                        <div class="">
+                                            <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+                                            <span class="ms-2">15-08-2025</span>
+                                        </div>
+                                        <div class="pt-3">
+                                            <h5 class="fw-bold text-uppercase" style="font-size: 18px;color:var(--color9);">INGRESANTES SEGUNDA FASE</h5>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="detalle">
+                                        Relacion de Ingresantes 2025-1
+
+                                    </div>
+
+                                </div>
+
+                                <div class="card-footer text-info d-flex justify-content-center align-items-center my-auto">
+
+                                    <a href="view3.php?id=7">Ver más&nbsp;&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 px-3 my-3">
+                        <a href="view3.php?id=8">
+                            <div class="card shadow-sm h-100" style="background: rgb(248, 248, 248);">
+                                <span class="news">Admision</span>
+                                <img src="./public/img/galeria/proceso-inscripcion.png" width="100%" height="300">
+
+                                <div class="card-body">
+
+                                    <div class="row ">
+                                        <div class="">
+                                            <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+                                            <span class="ms-2">15-08-2025</span>
+                                        </div>
+                                        <div class="pt-3">
+                                            <h5 class="fw-bold text-uppercase" style="font-size: 18px;color:var(--color9);">PROCESO DE INSCRIPCIÓN</h5>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="detalle">
+                                        Carrera Profesional Educación Inicial 2025 
+
+                                    </div>
+
+                                </div>
+
+                                <div class="card-footer text-info d-flex justify-content-center align-items-center my-auto">
+
+                                    <a href="view3.php?id=8">Ver más&nbsp;&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
