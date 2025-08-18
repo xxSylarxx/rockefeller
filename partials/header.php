@@ -149,6 +149,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="./noticias.php">Noticias</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./admision.php">Noticias</a>
+                    </li>
                     <li class="nav-item me-0">
 
                         <a class="nav-link round" href="javascript:void(0);" onclick="openRegisterModal()">Contacto</a>

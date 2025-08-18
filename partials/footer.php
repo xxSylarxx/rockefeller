@@ -169,7 +169,7 @@
                     <h3 style="color:var(--color5);font-weight:bold;">Navegación</h3>
                 </div>
                 <div class="py-2">
-                    <p style="color:var(--color5);font-weight:none;" class="m-0"> <a class="text-white" href="./nosotros.php"> - Nosostros</p></a>
+                    <p style="color:var(--color5);font-weight:none;" class="m-0"> <a class="text-white" href="./nosotros.php"> - Nosotros</p></a>
                 </div>
                 <div class="py-2">
                     <p style="color:var(--color5);font-weight:none;" class="m-0"><a class="text-white" href="./cursos.php"> - Educación Inicial</p></a>
