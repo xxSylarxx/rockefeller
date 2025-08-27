@@ -241,7 +241,7 @@
                     </a>
                 </div>
                 <div class="py-2">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15607.051012145994!2d-77.039845!3d-12.059838!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8c3db25487b%3A0x567820a4760f87cd!2sAv.%209%20de%20Diciembre%20378%2C%20Lima%2015001%2C%20Per%C3%BA!5e0!3m2!1ses!2sus!4v1756132454968!5m2!1ses!2sus" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe style="border-radius:5px;width:85%;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15607.051012145994!2d-77.039845!3d-12.059838!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8c3db25487b%3A0x567820a4760f87cd!2sAv.%209%20de%20Diciembre%20378%2C%20Lima%2015001%2C%20Per%C3%BA!5e0!3m2!1ses!2sus!4v1756132454968!5m2!1ses!2sus" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
             <div class="col-lg-3 ">
