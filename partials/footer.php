@@ -70,7 +70,7 @@
 
     .topcontrol2 {
         position: fixed;
-        bottom: 320px;
+        bottom: 90px;
         right: 18px;
         opacity: 0.8;
         cursor: pointer;
@@ -91,8 +91,8 @@
 
     .topcontrol2 i {
         color: white;
-        margin-top: 2px;
-        margin-left: 2px;
+        margin-top: 4px;
+        margin-left: 4px;
     }
 </style>
 <footer class="container-fluid pt-4">
@@ -276,7 +276,7 @@
             </div>
         </div>
         <div class="row d-flex justify-content-start py-5" style="position: relative;">
-            <a style="position: absolute;color:var(--color2);background:var(--color2);width:50px;height:50px;border-radius:5px;display:flex;text-align:center;align-items:center;justify-content:center;left:99%;top:-16%;" href="#">
+            <a style="position: absolute;color:var(--color2);background:var(--color2);width:50px;height:50px;border-radius:5px;display:flex;text-align:center;align-items:center;justify-content:center;top:-16%;" href="#">
                 <span><i class="fas fa-chevron-up" style="color:var(--color1);font-size:1.5rem;"></i></span>
             </a>
             <div class="col-lg-12"><span style="color:var(--color5);text-align:center;display:block;font-size:12px;">© 2025 Todos los derechos reservados, Instituto Pedagógico Nelson Rockefeller.</span></div>

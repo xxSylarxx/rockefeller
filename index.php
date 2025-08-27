@@ -24,12 +24,17 @@
     <script src="./public/js/bootstrap.min.js"></script>
 
     <?php include_once './partials/header.php'; ?>
+        <?php include_once './partials/flotante.php'; ?>
 
     <style>
         /* estilos del banner dinámico */
         /* #carouselBanner div.carousel-item img {
             height: calc(100vh - 90px);
         } */
+
+        .carousel-item {
+            position: relative;
+        }
 
         div.content-banner .frame-responsive {
             position: relative;
@@ -404,13 +409,22 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="./public/img/banner/banner1.jpg" class="d-block w-100" style="object-fit: cover;;">
+                    <a href="https://wa.me/+51916144934" target="_blank" style="position:absolute;bottom:20%;left:20%;background: var(--color1); color: #fff; border: none; padding: 12px 32px; border-radius: 8px; font-size: 1.1rem; font-weight: 600; cursor: pointer; text-decoration: none; display: inline-block;">
+                        Más Información
+                    </a>
+                    <img src="./public/img/banner/banner1.jpg" class="d-block w-100" style="object-fit: cover;">
                 </div>
                 <div class="carousel-item ">
-                    <img src="./public/img/banner/banner1.jpg" class="d-block w-100" style="object-fit: cover;;">
+                    <a href="https://wa.me/+51916144934" target="_blank" style="position:absolute;bottom:20%;left:20%;background: var(--color1); color: #fff; border: none; padding: 12px 32px; border-radius: 8px; font-size: 1.1rem; font-weight: 600; cursor: pointer; text-decoration: none; display: inline-block;">
+                        Más Información
+                    </a>
+                    <img src="./public/img/banner/banner1.jpg" class="d-block w-100" style="object-fit: cover;">
                 </div>
                 <div class="carousel-item ">
-                    <img src="./public/img/banner/banner1.jpg" class="d-block w-100" style="object-fit: cover;;">
+                    <a href="https://wa.me/+51916144934" target="_blank" style="position:absolute;bottom:20%;left:20%;background: var(--color1); color: #fff; border: none; padding: 12px 32px; border-radius: 8px; font-size: 1.1rem; font-weight: 600; cursor: pointer; text-decoration: none; display: inline-block;">
+                        Más Información
+                    </a>
+                    <img src="./public/img/banner/banner1.jpg" class="d-block w-100" style="object-fit: cover;">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselBanner" data-bs-slide="prev">

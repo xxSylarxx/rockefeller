@@ -94,7 +94,7 @@
     }
 </style>
 <header id="header" class="fixed-top">
-    <div class="header-top">
+    <div class="header-top py-1">
     <div class="container">
         <div class="row align-items-center">
             
