@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="El Instituto Sistemas Perú se dedica a proporcionar una educación integral de alta calidad que fomente el desarrollo académico, personal y social de nuestros estudiantes.">
-    <title>ISP - Instituto</title>
+  <title>IESPP - NELSON ROCKEFELLER</title>
     <link rel="shortcut icon" href="./public/img/icons/logo.png" type="image/png">
     <!--     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"> -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
@@ -38,8 +38,6 @@
     <!-- ventana emergente admin -->
 
     <style>
-        
-
         #carreras {
             padding-top: 1rem;
             padding-bottom: 9rem;
@@ -79,6 +77,7 @@
             max-height: 70px;
             overflow: hidden;
             transition: .2s ease-in;
+            font-size: 15px;
         }
 
         /* Botón oculto inicialmente */
@@ -237,9 +236,9 @@
 
             </div>
  -->
-            <img src="./public/img/portadas/portada_interna.jpg" width="100%" >
+            <img src="./public/img/portadas/portada_interna.jpg" width="100%">
         </div>
-         <section id="cursos">
+        <section id="cursos">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg">
@@ -253,10 +252,28 @@
                         <div class="carreras_slider">
                             <div class="content-carrera-curso">
                                 <div class="ccarrera-curso-img">
+                                    <img src="./public/img/galeria/portada_pub3.jpg" alt="">
+                                </div>
+                                <div class="ccarrera-curso-cuerpo p-4">
+                                    <h3 class="text-center" style="color:var(--color4);">Comunicado de Dirección</h3>
+
+                                    <p>Se les informa a los alumnos que a partir del día lunes 23 de junio del 2025 se emitirán las boletas de notas en forma gratuita; la demora por la falsificación de documentos de la institución como boleta de notas, constancia de estudios, certificado de estudios, constancia de egresados cobranzas irregulares y otros. </p>
+                                    <br>
+                                    <div class="col-lg  d-flex justify-content-center">
+                                        <a class="btn" href="./view.php?id=2">Ver Más&nbsp;&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="carreras_slider">
+                            <div class="content-carrera-curso">
+                                <div class="ccarrera-curso-img">
                                     <img src="./public/img/galeria/portada_pub1.jpg" alt="">
                                 </div>
                                 <div class="ccarrera-curso-cuerpo p-4">
-                                    <h3 class="text-center" style="color:var(--color1);">Examen de Admision 2025</h3>
+                                    <h3 class="text-center" style="color:var(--color4);">Examen de Admisión 2025</h3>
 
                                     <p>Instituto de Educación Superior Pedagógica Privada Nelson Rockefeller
                                         📢 EXAMEN DE ADMISIÓN 2025-II ( Presencial )</p>
@@ -268,24 +285,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4">
-                        <div class="carreras_slider">
-                            <div class="content-carrera-curso">
-                                <div class="ccarrera-curso-img">
-                                    <img src="./public/img/galeria/portada_pub3.jpg" alt="">
-                                </div>
-                                <div class="ccarrera-curso-cuerpo p-4">
-                                    <h3 class="text-center" style="color:var(--color1);">Comunicado de Dirección</h3>
 
-                                    <p>Se les informa a los alumnos que a partir del día lunes 23 de junio del 2025 se emitirán las boletas de notas en forma gratuita; la demora por la falsificación de documentos de la institución como boleta de notas, constancia de estudios, certificado de estudios, constancia de egresados cobranzas irregulares y otros. </p>
-                                    <br>
-                                    <div class="col-lg  d-flex justify-content-center">
-                                        <a class="btn" href="./view.php?id=2">Ver Más&nbsp;&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
         </section>
 
@@ -294,6 +294,8 @@
         <br> <br>
 
     </main>
+    <?php include_once './enlaces-recomendados/enlaces.php'; ?>
+    
     <?php include_once 'partials/footer.php'; ?>
     <script>
         function landingnext() {

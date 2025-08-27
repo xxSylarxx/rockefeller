@@ -78,15 +78,69 @@
         }
     }
 
-   /*  @media screen and (min-width:992px) and (max-width:1400px) {
+    /*  @media screen and (min-width:992px) and (max-width:1400px) {
         .img-logo {
             height: 30px;
         }
     } */
 
     /* ============ small devices .end// ============ */
+
+    .header-top {
+        background-color: var(--color1);
+        font-size: 13.5px;
+        font-weight: none;
+        align-items: center;
+    }
 </style>
 <header id="header" class="fixed-top">
+    <div class="header-top">
+    <div class="container">
+        <div class="row align-items-center">
+            
+            <!-- Columna izquierda -->
+            <div class="col-lg-8 col-12 gx-2">
+                <div class="header-link d-flex align-items-center gap-4">
+                    
+                    <p style="color:var(--color5);" class="m-0">
+                        <a class="text-white" href="https://maps.app.goo.gl/aV61HX9XxMQny9S2A" target="_blank">
+                            <i class="fas fa-location-arrow mx-1"></i> Av. 9 de Diciembre 346-372-378
+                        </a>
+                    </p>
+                    
+                    <p style="color:var(--color5);" class="m-0">
+                        <i class="fas fa-phone-volume mx-1"></i>
+                        <a class="text-white" href="tel:+51916144934" target="_blank">+51 916 144 934</a>
+                    </p>
+                    
+                    <p style="color:var(--color5);" class="m-0">
+                        <i class="fas fa-envelope mx-1"></i>
+                        <a class="text-white" href="mailto:informes@iespprockefeller.edu.pe" target="_blank">informes@iespprockefeller.edu.pe</a>
+                    </p>
+                    
+                </div>
+            </div>
+            <!-- Columna derecha -->
+            <div class="col-lg-4 col-12 d-flex justify-content-lg-end justify-content-center gap-3">
+                <span class="text-white">Redes:</span>
+                <a href="https://www.instagram.com/instituto_nelson_rockefeller" class="text-white" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com/institutopedagogiconelsonrockefeller" class="text-white" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://wa.me/+51916144934" class="text-white" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="https://www.youtube.com/@InstitutoNelsonRockefeller" class="text-white" target="_blank">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container ps-0">
             <a class="navbar-brand fs-4 fw-bold" style="letter-spacing: .08em;" href="./index.php">
@@ -105,7 +159,7 @@
                         <a class="nav-link" href="./nosotros.php">Nosotros</a>
                     </li>
                     <!--  <li class="nav-item">
-                    <!--  <li class="nav-item">
+                     <li class="nav-item">
                         <a class="nav-link" href="./carreras.php">Carreras</a>
                     </li> -->
                     <!-- <li class="nav-item">
@@ -116,7 +170,7 @@
                             Educación Inicial &nbsp;<i class="fas fa-chevron-down" style="font-size:12px;"></i>
                         </a>
                         <ul class="dropdown-menu animate__animated animate__fadeInUp" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item py-2" href="./descripcion.php">Descripción</a></li>
+                            <li><a class="dropdown-item py-2" href="./carrera.php">Carrera</a></li>
                             <li><a class="dropdown-item py-2" href="./campo-laboral.php">Campo Laboral</a></li>
                             <li><a class="dropdown-item py-2" href="./plan-estudios.php">Plan de Estudios</a></li>
                         </ul>
@@ -149,9 +203,17 @@
                     <li class="nav-item">
                         <a class="nav-link" href="./noticias.php">Noticias</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./admision.php">Admisión</a>
+                    <li class="nav-item" onmouseover="showMenuHover(1)" onmouseout="showMenuHover2(1)">
+                        <a class="nav-link" href="#" id="navbarDropdown">
+                            Admisión &nbsp;<i class="fas fa-chevron-down" style="font-size:12px;"></i>
+                        </a>
+                        <ul class="dropdown-menu animate__animated animate__fadeInUp" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item py-2" href="#">Lineamientos Académicos</a></li>
+                            <li><a class="dropdown-item py-2" href="./proceso.php">Proceso</a></li>
+                            <li><a class="dropdown-item py-2" href="./matricula.php">Matricula</a></li>
+                        </ul>
                     </li>
+
                     <li class="nav-item me-0">
 
                         <a class="nav-link round" href="javascript:void(0);" onclick="openRegisterModal()">Contacto</a>

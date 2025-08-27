@@ -167,7 +167,7 @@
     <?php include_once 'partials/header.php'; ?>
 
 
-    <section class="container-fluid" id="lema">
+    <!-- <section class="container-fluid" id="lema">
 
         <div class="row justify-content-center">
 
@@ -210,7 +210,7 @@
 
             </div>
         </div>
-    </section>
+    </section> -->
 
 
     <section class="container lista">
@@ -223,7 +223,7 @@
         <div class="row justify-content-between mt-4" style="padding-top: 3rem; padding-bottom: 7rem;">
             <div class="col-md-8">
                 <div id="body-pub">
-                    <?php include_once './admision/admision' . $_GET['id'] . '.php' ?>
+                    <?php include_once './proceso/proceso' . $_GET['id'] . '.php' ?>
                     <div class="col-md text-center pt-5">
                         <a href="./admision.php"><button class="button5">Ver Más</button></a>
                     </div>

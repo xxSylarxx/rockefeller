@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="El Instituto Sistemas Perú se dedica a proporcionar una educación integral de alta calidad que fomente el desarrollo académico, personal y social de nuestros estudiantes.">
-    <title>ISP - Instituto</title>
+  <title>IESPP - NELSON ROCKEFELLER</title>
     <link rel="shortcut icon" href="./public/img/icons/logo.png" type="image/png">
     <!--     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"> -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
@@ -231,9 +231,9 @@
         @media screen and (max-width: 1400px) {
 
 
-            .portada img {
+            /* .portada img {
                 height: 30vh;
-            }
+            } */
 
             #mision-vision img {
                 width: 35%;
@@ -287,6 +287,7 @@
                         <p>Nuestra carrera profesional de Educación Inicial, con una duración de cinco años, está diseñada para brindar una formación integral, combinando la teoría con la práctica, y fomentando la creatividad, el pensamiento crítico y el amor por la enseñanza. Nos enorgullece contar con un equipo docente comprometido, instalaciones adecuadas y una comunidad educativa que valora el respeto, la inclusión y la excelencia académica.</p>
                         <p>Los invito a conocer más sobre nuestra propuesta formativa y a ser parte de este camino apasionante de formación profesional. Juntos construiremos una educación de calidad para las futuras generaciones.
                         </p>
+                        <br><br><br><br>
                         <span style="text-align: center;display:block;font-weight:bold;">¡Sean todos bienvenidos!</span>
                         <span style="text-align:right;display:block;">Oswaldo Campos Monteza</span>
                         <span style="text-align:right;display:block;font-weight:bold;">Director General</span>
@@ -605,22 +606,16 @@
                 </div> -->
             </div>
         </section>
-
         <!-- 
         
 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> -->
-
-
-
-        <br><br><br>
-        <br>
-
-
-
     </main>
+    <?php include_once './enlaces-recomendados/enlaces.php'; ?>
+
+
     <?php include_once 'partials/footer.php'; ?>
     <script>
         function landingnext() {

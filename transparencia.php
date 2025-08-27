@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="El Instituto Sistemas Perú se dedica a proporcionar una educación integral de alta calidad que fomente el desarrollo académico, personal y social de nuestros estudiantes.">
-    <title>ISP - Instituto</title>
+    <title>IESPP - NELSON ROCKEFELLER</title>
     <link rel="shortcut icon" href="./public/img/icons/logo.png" type="image/png">
     <!--     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"> -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
@@ -187,34 +187,318 @@
                     <div class="col-md-4 px-3 my-3">
                         <a href="view4.php?id=1">
                             <div class="card shadow-sm h-100" style="background: rgb(248, 248, 248);">
-                                <span class="news">Transparencia</span>
-                                <img src="./public/img/galeria/foto-reglamento-interno.png" width="100%" height="300">
+                                <!-- <span class="news">Transparencia</span> -->
+                                <img src="./public/img/galeria/tupa-costos.png" width="100%" height="300">
 
                                 <div class="card-body">
 
                                     <div class="row ">
-                                        <div class="">
+                                        <div style="color: var(--color4);">
                                             <i class="fas fa-calendar-alt" aria-hidden="true"></i>
-                                            <span class="ms-2">15-08-2025</span>
+                                            <span class="ms-2">01-02-2025</span>
                                         </div>
-                                        <div class="pt-3">
-                                            <h5 class="fw-bold text-uppercase" style="font-size: 18px;color:var(--color9);">Reglamento Interno 2025</h5>
+                                        <div class="pt-3" style="color: var(--color4);">
+                                            <h5 class="fw-bold text-uppercase" style="font-size: 18px;color:var(--color4);"> Determinación de los costos</h5>
                                         </div>
                                     </div>
-                                    <!-- <div class="detalle">
-                                        Instituto de Educación Superior Pedagógica Privada Nelson Rockefeller
-                                    📢 EXAMEN DE ADMISIÓN 2025-II ( Presencial )
-                                    </div> -->
+                                    <div class="detalle">
+                                        El Instituto de educación superior pedagógico privado Nelson Rockefeller, es un
+                                        Centro de Educación Superior de gestión privado
+                                    </div>
                                 </div>
 
                                 <div class="card-footer text-info d-flex justify-content-center align-items-center my-auto">
 
-                                    <a href="view4.php?id=1">Ver más&nbsp;&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
+                                    <a href="view4.php?id=1" style="color: var(--color1);">Ver más&nbsp;&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
                                 </div>
 
                             </div>
                         </a>
                     </div>
+                    <div class="col-md-4 px-3 my-3">
+                        <a href="view4.php?id=2">
+                            <div class="card shadow-sm h-100" style="background: rgb(248, 248, 248);">
+                                <!-- <span class="news">Transparencia</span> -->
+                                <img src="./public/img/galeria/reglamento-institucional.png" width="100%" height="300">
+
+                                <div class="card-body">
+
+                                    <div class="row ">
+                                        <div style="color: var(--color4);">
+                                            <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+                                            <span class="ms-2">01-02-2025</span>
+                                        </div>
+                                        <div class="pt-3" style="color: var(--color4);">
+                                            <h5 class="fw-bold text-uppercase" style="font-size: 18px;color:var(--color4);"> Reglamento Institucional</h5>
+                                        </div>
+                                    </div>
+                                    <div class="detalle">
+                                        El borrador del Reglamento Interno del INSTITUTO DE EDUCACIÓN SUPERIOR PEDAGÓGICO PRIVADA
+                                    </div>
+                                </div>
+
+                                <div class="card-footer text-info d-flex justify-content-center align-items-center my-auto">
+
+                                    <a href="view4.php?id=2" style="color: var(--color1);">Ver más&nbsp;&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 px-3 my-3">
+                        <a href="view4.php?id=3">
+                            <div class="card shadow-sm h-100" style="background: rgb(248, 248, 248);">
+                                <!-- <span class="news">Transparencia</span> -->
+                                <img src="./public/img/galeria/reglamento-sustentacion.png" width="100%" height="300">
+
+                                <div class="card-body">
+
+                                    <div class="row ">
+                                        <div style="color: var(--color4);">
+                                            <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+                                            <span class="ms-2">01-02-2025</span>
+                                        </div>
+                                        <div class="pt-3" style="color: var(--color4);">
+                                            <h5 class="fw-bold text-uppercase" style="font-size: 18px;color:var(--color4);"> Reglamento de Sustentación de Tesis</h5>
+                                        </div>
+                                    </div>
+                                    <div class="detalle">
+                                        Necesario contar con un Reglamento de Sustentación de Tesis de la INSTITUTO
+                                        DE EDUCACIÓN SUPERIOR
+                                    </div>
+                                </div>
+
+                                <div class="card-footer text-info d-flex justify-content-center align-items-center my-auto">
+
+                                    <a href="view4.php?id=3" style="color: var(--color1);">Ver más&nbsp;&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 px-3 my-3">
+                        <a href="view4.php?id=4">
+                            <div class="card shadow-sm h-100" style="background: rgb(248, 248, 248);">
+                                <!-- <span class="news">Transparencia</span> -->
+                                <img src="./public/img/galeria/proyecto-educativo.png" width="100%" height="300">
+
+                                <div class="card-body">
+
+                                    <div class="row ">
+                                        <div style="color: var(--color4);">
+                                            <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+                                            <span class="ms-2">01-02-2025</span>
+                                        </div>
+                                        <div class="pt-3" style="color: var(--color4);">
+                                            <h5 class="fw-bold text-uppercase" style="font-size: 18px;color:var(--color4);"> Proyecto Educativo Institucional</h5>
+                                        </div>
+                                    </div>
+                                    <div class="detalle">
+                                        Contar con un Proyecto Educativo Institucional de la INSTITUTO DE
+                                        EDUCACIÓN SUPERIOR PEDAGÓGICO
+                                    </div>
+                                </div>
+
+                                <div class="card-footer text-info d-flex justify-content-center align-items-center my-auto">
+
+                                    <a href="view4.php?id=4" style="color: var(--color1);">Ver más&nbsp;&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 px-3 my-3">
+                        <a href="view4.php?id=5">
+                            <div class="card shadow-sm h-100" style="background: rgb(248, 248, 248);">
+                                <!-- <span class="news">Transparencia</span> -->
+                                <img src="./public/img/galeria/proyecto-curricular.png" width="100%" height="300">
+
+                                <div class="card-body">
+
+                                    <div class="row ">
+                                        <div style="color: var(--color4);">
+                                            <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+                                            <span class="ms-2">01-02-2025</span>
+                                        </div>
+                                        <div class="pt-3" style="color: var(--color4);">
+                                            <h5 class="fw-bold text-uppercase" style="font-size: 18px;color:var(--color4);"> Proyecto Curricular Institucional</h5>
+                                        </div>
+                                    </div>
+                                    <div class="detalle">
+                                        Contar con un Proyecto Curricular Institucional del INSTITUTO DE
+                                        EDUCACIÓN SUPERIOR PEDAGÓGICO PRIVADO
+                                    </div>
+                                </div>
+
+                                <div class="card-footer text-info d-flex justify-content-center align-items-center my-auto">
+
+                                    <a href="view4.php?id=5" style="color: var(--color1);">Ver más&nbsp;&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 px-3 my-3">
+                        <a href="view4.php?id=6">
+                            <div class="card shadow-sm h-100" style="background: rgb(248, 248, 248);">
+                                <!-- <span class="news">Transparencia</span> -->
+                                <img src="./public/img/galeria/plan-anual-trabajo.png" width="100%" height="300">
+
+                                <div class="card-body">
+
+                                    <div class="row ">
+                                        <div style="color: var(--color4);">
+                                            <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+                                            <span class="ms-2">01-02-2025</span>
+                                        </div>
+                                        <div class="pt-3" style="color: var(--color4);">
+                                            <h5 class="fw-bold text-uppercase" style="font-size: 18px;color:var(--color4);"> Plan Anual de Trabajo
+                                            </h5>
+                                        </div>
+                                    </div>
+                                    <div class="detalle">
+                                        Contar con un Plan Anual de Trabajo del INSTITUTO DE EDUCACIÓN
+                                        SUPERIOR PEDAGÓGICO PRIVADO
+                                    </div>
+                                </div>
+
+                                <div class="card-footer text-info d-flex justify-content-center align-items-center my-auto">
+
+                                    <a href="view4.php?id=6" style="color: var(--color1);">Ver más&nbsp;&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 px-3 my-3">
+                        <a href="view4.php?id=7">
+                            <div class="card shadow-sm h-100" style="background: rgb(248, 248, 248);">
+                                <!-- <span class="news">Transparencia</span> -->
+                                <img src="./public/img/galeria/manual-procesos.png" width="100%" height="300">
+
+                                <div class="card-body">
+
+                                    <div class="row ">
+                                        <div style="color: var(--color4);">
+                                            <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+                                            <span class="ms-2">01-02-2025</span>
+                                        </div>
+                                        <div class="pt-3" style="color: var(--color4);">
+                                            <h5 class="fw-bold text-uppercase" style="font-size: 18px;color:var(--color4);"> Manual de Procesos
+                                            </h5>
+                                        </div>
+                                    </div>
+                                    <div class="detalle">
+                                        Contar con un Plan Anual de Trabajo del INSTITUTO DE EDUCACIÓN
+                                        SUPERIOR PEDAGÓGICO PRIVADO
+                                    </div>
+                                </div>
+
+                                <div class="card-footer text-info d-flex justify-content-center align-items-center my-auto">
+
+                                    <a href="view4.php?id=7" style="color: var(--color1);">Ver más&nbsp;&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 px-3 my-3">
+                        <a href="view4.php?id=8">
+                            <div class="card shadow-sm h-100" style="background: rgb(248, 248, 248);">
+                                <!-- <span class="news">Transparencia</span> -->
+                                <img src="./public/img/galeria/cuerpo-docente.png" width="100%" height="300">
+
+                                <div class="card-body">
+
+                                    <div class="row ">
+                                        <div style="color: var(--color4);">
+                                            <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+                                            <span class="ms-2">01-02-2025</span>
+                                        </div>
+                                        <div class="pt-3" style="color: var(--color4);">
+                                            <h5 class="fw-bold text-uppercase" style="font-size: 18px;color:var(--color4);">Conformación del cuerpo Docente
+                                            </h5>
+                                        </div>
+                                    </div>
+                                    <div class="detalle">
+                                        Reglamento Interno del INSTITUTO DE EDUCACIÓN SUPERIOR
+                                        PEDAGÓGICO PRIVADO “NELSON ROCKEFELLER”
+                                    </div>
+                                </div>
+
+                                <div class="card-footer text-info d-flex justify-content-center align-items-center my-auto">
+
+                                    <a href="view4.php?id=8" style="color: var(--color1);">Ver más&nbsp;&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 px-3 my-3">
+                        <a href="view4.php?id=9">
+                            <div class="card shadow-sm h-100" style="background: rgb(248, 248, 248);">
+                                <!-- <span class="news">Transparencia</span> -->
+                                <img src="./public/img/galeria/program-est-hor.png" width="100%" height="300">
+
+                                <div class="card-body">
+
+                                    <div class="row ">
+                                        <div style="color: var(--color4);">
+                                            <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+                                            <span class="ms-2">01-02-2025</span>
+                                        </div>
+                                        <div class="pt-3" style="color: var(--color4);">
+                                            <h5 class="fw-bold text-uppercase" style="font-size: 18px;color:var(--color4);">Relación de Programas de Estudios y Horarios
+
+                                            </h5>
+                                        </div>
+                                    </div>
+                                    <div class="detalle">
+                                        Horarios, Turnos y Programa de estudio
+                                    </div>
+                                </div>
+
+                                <div class="card-footer text-info d-flex justify-content-center align-items-center my-auto">
+
+                                    <a href="view4.php?id=9" style="color: var(--color1);">Ver más&nbsp;&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 px-3 my-3">
+                        <a href="view4.php?id=10">
+                            <div class="card shadow-sm h-100" style="background: rgb(248, 248, 248);">
+                                <!-- <span class="news">Transparencia</span> -->
+                                <img src="./public/img/galeria/directiva-dinero.png" width="100%" height="300">
+
+                                <div class="card-body">
+
+                                    <div class="row ">
+                                        <div style="color: var(--color4);">
+                                            <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+                                            <span class="ms-2">01-02-2025</span>
+                                        </div>
+                                        <div class="pt-3" style="color: var(--color4);">
+                                            <h5 class="fw-bold text-uppercase" style="font-size: 18px;color:var(--color4);">Directiva sobre devolución de dinero
+                                            </h5>
+                                        </div>
+                                    </div>
+                                    <div class="detalle">
+                                        DEVOLUCION DE DINERO del INSTITUTO DE EDUCACIÓN SUPERIOR PEDAGÓGICO PRIVADO
+                                        “NELSON ROCKEFELLER”, que norme la ejecucion de las actividades
+                                    </div>
+                                </div>
+
+                                <div class="card-footer text-info d-flex justify-content-center align-items-center my-auto">
+
+                                    <a href="view4.php?id=10" style="color: var(--color1);">Ver más&nbsp;&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+
                 </div>
             </div>
         </section>
@@ -222,6 +506,8 @@
         <br>
 
     </main>
+    <?php include_once './enlaces-recomendados/enlaces.php'; ?>
+    
     <?php include_once 'partials/footer.php'; ?>
     <script>
         function landingnext() {

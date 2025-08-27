@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="El Instituto Sistemas Perú se dedica a proporcionar una educación integral de alta calidad que fomente el desarrollo académico, personal y social de nuestros estudiantes.">
-    <title>IES - NELSON ROCKEFELLER</title>
+    <title>IESPP - NELSON ROCKEFELLER</title>
     <link rel="shortcut icon" href="./public/img/icons/logo.png" type="image/png">
     <!--     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
@@ -108,6 +108,29 @@
             object-fit: cover;
         }
 
+        #alianzas {
+            background-color: var(--color9);
+            padding-right: 4%;
+            padding-left: 4%;
+            padding-bottom: 12%;
+            padding-top: 2%;
+            margin-top: 4rem;
+        }
+
+        /*  #alianzas .separador {
+            background-color: var(--color2);
+            height: 4px;
+            width: 50px;
+
+        } */
+        #alianzas img {
+            transition: transform .8s ease-in-out;
+        }
+
+        #alianzas img:hover {
+            transform: scale(1.1);
+        }
+
         .titulo-border {
             width: 180px !important;
             padding: .4rem !important;
@@ -175,6 +198,7 @@
             max-height: 70px;
             overflow: hidden;
             transition: .2s ease-in;
+            font-size: 15px;
         }
 
         /* Botón oculto inicialmente */
@@ -250,9 +274,13 @@
 
         #cursos {
             padding-top: 8rem;
-            padding-bottom: 13rem;
+
             padding-left: 10%;
             padding-right: 10%;
+        }
+
+        #admision {
+            padding-bottom: 3rem;
         }
 
         /* seccion de resultados */
@@ -631,7 +659,7 @@
                                 <img src="./public/img/galeria/portada_pub1.jpg" alt="">
                             </div>
                             <div class="ccarrera-curso-cuerpo p-4">
-                                <h3 class="text-center" style="color:var(--color1);">Examen de Admision 2025</h3>
+                                <h3 class="text-center" style="color:var(--color4);">Examen de Admision 2025</h3>
 
                                 <p>Instituto de Educación Superior Pedagógica Privada Nelson Rockefeller
                                     📢 EXAMEN DE ADMISIÓN 2025-II ( Presencial )</p>
@@ -650,7 +678,7 @@
                                 <img src="./public/img/galeria/portada_pub2.jpg" alt="">
                             </div>
                             <div class="ccarrera-curso-cuerpo p-4">
-                                <h3 class="text-center" style="color:var(--color1);">Colegio de Profesores del Perú</h3>
+                                <h3 class="text-center" style="color:var(--color4);">Colegio de Profesores del Perú</h3>
 
                                 <p>Convenio de Cooperación Intersinstitucional entre el Colegiode Profesores del Perú y el Instituto de Educación Superior Pedagógico Privado "Nelson Rockefeller".</p>
                                 <br>
@@ -668,7 +696,7 @@
                                 <img src="./public/img/galeria/portada_pub3.jpg" alt="">
                             </div>
                             <div class="ccarrera-curso-cuerpo p-4">
-                                <h3 class="text-center" style="color:var(--color1);">Comunicado de Dirección</h3>
+                                <h3 class="text-center" style="color:var(--color4);">Comunicado de Dirección</h3>
 
                                 <p>Se les informa a los alumnos que a partir del día lunes 23 de junio del 2025 se emitirán las boletas de notas en forma gratuita; la demora por la falsificación de documentos de la institución como boleta de notas, constancia de estudios, certificado de estudios, constancia de egresados cobranzas irregulares y otros. </p>
                                 <br>
@@ -681,6 +709,51 @@
                 </div>
             </div>
     </section>
+
+    <!-- <section id="alianzas">
+        <div class="container-fluid">
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-6">
+                    <div class="py-4">
+                        <div style="text-align:center;">
+                            <h2>Enlaces Recomendados</h2>
+                        </div>
+                        <div class="separador mx-auto"></div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-2 py-5 d-flex justify-content-center">
+                    <a href="https://www.gob.pe/minedu" target="_blank">
+                        <center><img src="./public/img/web/min-educacion.png" width="100%" alt=""></center>
+                    </a>
+                </div>
+                <div class="col-lg-2 py-5 d-flex justify-content-center">
+                    <a href="https://www.gob.pe/bnp" target="_blank">
+                        <center><img src="./public/img/web/biblioteca-peru.png" width="100%" alt=""></center>
+                    </a>
+                </div>
+                <div class="col-lg-2 py-5 d-flex justify-content-center">
+                    <a href="https://www.gob.pe/cne" target="_blank">
+                        <center><img src="./public/img/web/consejo-nacional.png" width="100%" alt=""></center>
+                    </a>
+                </div>
+                <div class="col-lg-2 py-5 d-flex justify-content-center">
+                    <a href="https://rscj.org.pe/" target="_blank">
+                        <center><img src="./public/img/web/peru-rscj.png" width="100%" alt=""></center>
+                    </a>
+                </div>
+                <div class="col-lg-2 py-5 d-flex justify-content-center">
+                    <a href="https://rscjinternational.org/es/home-spanish/" target="_blank">
+                        <center><img src="./public/img/web/internacional-rscj.png" width="100%" alt=""></center>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <?php include_once './enlaces-recomendados/enlaces.php'; ?>
 
     <?php include_once './partials/footer.php'; ?>
 </body>

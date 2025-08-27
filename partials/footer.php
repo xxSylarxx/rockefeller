@@ -67,8 +67,36 @@
         height: 100%;
         object-fit: cover;
     }
+
+    .topcontrol2 {
+        position: fixed;
+        bottom: 320px;
+        right: 18px;
+        opacity: 0.8;
+        cursor: pointer;
+        z-index: 100;
+        background: #00D553;
+        width: 50px;
+        height: 50px;
+        padding-top: 4px;
+        padding-left: 8px;
+        /* border: 2px solid white; */
+        border-radius: 50%;
+        transition: all 3 ease-in-out;
+    }
+
+    .topcontrol2:hover {
+        transform: scale(1.08);
+    }
+
+    .topcontrol2 i {
+        color: white;
+        margin-top: 2px;
+        margin-left: 2px;
+    }
 </style>
 <footer class="container-fluid pt-4">
+
     <div class="div-admision">
         <div class="container">
             <div style="background-color: var(--color2);border-radius:20px;">
@@ -79,13 +107,13 @@
                             <p> Descubre nuestras opciones de admisión y selecciona <br> la que mejor se ajuste a ti.</p>
                             <br>
                             <div class="col-lg  d-flex justify-content-start">
-                                <a class="btn" href="./admision.php" onclick="openRegisterModal()">Ver Más&nbsp;&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
-                                <script>
+                                <a class="btn" href="./admision.php">Ver Más&nbsp;&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
+                                <!-- <script>
                                     function openRegisterModal() {
                                         var registerModal = new bootstrap.Modal(document.getElementById('registerModal'));
                                         registerModal.show();
                                     }
-                                </script>
+                                </script> -->
                             </div>
                         </div>
                     </div>
@@ -100,7 +128,7 @@
 
     </div>
 
-    <div style="padding-top: 11rem;">
+    <div class="text" style="padding-top: 11rem;">
         <div class="row d-flex justify-content-center ">
             <div class="col-lg-3">
                 <div class="d-flex justify-content-center">
@@ -108,7 +136,7 @@
                 </div>
                 <br>
                 <div>
-                    <p style="color:var(--color5);text-align:start; font-weight:none;">El Instituto de Sistemas es una comunidad educativa comprometida con el aprendizaje y la innovación en el ámbito tecnológico.</p>
+                    <p style="color:var(--color5);text-align:start; font-weight:none; font-size:15px;">El Instituto de Educación Superior Pedagógico Privado “Nelson Rockefeller” es una institución dedicada a la formación profesional de docentes en la especialidad de Educación Inicial.</p>
                 </div>
                 <!--<div class="row d-flex ">
                   <div class="col-lg-5" style="font-size:1rem;">Follow Us</div>
@@ -133,7 +161,7 @@
                     </div>
                     <div class="col-lg-2">
                         <div style="border-radius:50%;background:white;width:40px;height:40px;padding-top:4px;">
-                            <a href="https://www.tiktok.com/@iesppnelsonrockefeller" style="color:var(--color1);font-size:20px;" target="_blank">
+                            <a href="https://www.youtube.com/@InstitutoNelsonRockefeller" style="color:var(--color1);font-size:20px;" target="_blank">
                                 <center><i class="fab fa-youtube"></i></center>
                             </a>
                         </div>
@@ -150,7 +178,7 @@
                     </div>
                     <div class="col-lg-2">
                         <div style="border-radius:50%;background:white;width:40px;height:40px;padding-top:4px;">
-                            <a href="https://www.instagram.com/instituto_nelson_rockefeller/" style="color:var(--color1);font-size:20px;" target="_blank">
+                            <a href="https://www.instagram.com/instituto_nelson_rockefeller" style="color:var(--color1);font-size:20px;" target="_blank">
                                 <center><i class="fab fa-instagram"></i></center>
                             </a>
                         </div>
@@ -169,79 +197,97 @@
 
             <div class="col-lg-2 px-3">
                 <div>
-                    <h3 style="color:var(--color5);font-weight:bold;">Navegación</h3>
+                    <h3 style="color:var(--color5);font-weight:bold;font-size:15px;">Navegación</h3>
                 </div>
                 <div class="py-2">
-                    <p style="color:var(--color5);font-weight:none;" class="m-0"> <a class="text-white" href="./nosotros.php"> - Nosotros</p></a>
+                    <p style="color:var(--color5);font-weight:none;font-size:15px;" class="m-0"> <a class="text-white" href="./nosotros.php"> - Nosotros</p></a>
                 </div>
                 <div class="py-2">
-                    <p style="color:var(--color5);font-weight:none;" class="m-0"><a class="text-white" href="./cursos.php"> - Educación Inicial</p></a>
+                    <p style="color:var(--color5);font-weight:none;font-size:15px;" class="m-0"><a class="text-white" href="./carrera.php"> - Plan de Estudios</p></a>
                 </div>
                 <div class="py-2">
-                    <p style="color:var(--color5);font-weight:none;" class="m-0"> <a class="text-white" href="./convenios.php">- Convenios</p></a>
+                    <p style="color:var(--color5);font-weight:none;font-size:15px;" class="m-0"> <a class="text-white" href="./plan-estudios.php"> - Proceso de Admisión</p></a>
                 </div>
                 <div class="py-2">
-                    <p style="color:var(--color5);font-weight:none;" class="m-0"> <a class="text-white" href="./transparencia.php"> - Transparencia</p></a>
+                    <p style="color:var(--color5);font-weight:none;font-size:15px;" class="m-0"> <a class="text-white" href="./matricula.php"> - Matricula</p></a>
                 </div>
                 <div class="py-2">
-                    <p style="color:var(--color5);font-weight:none;" class="m-0"> <a class="text-white" href="./noticias.php"> - Noticias</p></a>
+                    <p style="color:var(--color5);font-weight:none;font-size:15px;" class="m-0"> <a class="text-white" href="#"> - Lineamientos Académicos</p></a>
                 </div>
-                <div class="py-2">
-                    <p style="color:var(--color5);font-weight:none;" class="m-0"><a class="text-white" href="./admision.php"> - Admision</p></a>
-                </div>
+                <!-- <div class="py-2">
+                    <p style="color:var(--color5);font-weight:none;font-size:15px;" class="m-0"><a class="text-white" href="./admision.php"> - Admision</p></a>
+                </div> -->
 
 
 
             </div>
             <div class="col-lg-3 ">
                 <div>
-                    <h3 style="color:var(--color5);font-weight:bold;">Contáctanos</h3>
+                    <h3 style="color:var(--color5);font-weight:bold;font-size:15px;">Contáctanos</h3>
                 </div>
                 <div class="py-2">
-                    <p style="color:var(--color5);font-weight:none;" class="m-0"> <i class="fas fa-phone-volume"></i><a class="text-white" href="tel:+51916144934"> +51 916 144 934</p></a>
+                    <p style="color:var(--color5);font-weight:none;font-size:15px;" class="m-0"> <i class="fas fa-phone-volume"></i><a class="text-white" href="tel:+51916144934"> +51 916 144 934</p></a>
                 </div>
                 <div class="py-2">
-                    <p style="color:var(--color5);font-weight:none;" class="m-0"><a class="text-white" href="https://maps.app.goo.gl/aV61HX9XxMQny9S2A"> <i class="fas fa-location-arrow"></i> Av. 9 de Diciembre 378 Lima. (Ex – Paseo Colon).</a>
+                    <p style="color:var(--color5);font-weight:none;font-size:15px;" class="m-0"><a class="text-white" href="https://maps.app.goo.gl/aV61HX9XxMQny9S2A"> <i class="fas fa-location-arrow"></i> Av. 9 de Diciembre 378 Lima. (Ex – Paseo Colon).</a>
                     </p>
                 </div>
                 <div class="py-2">
-                    <p style="color:var(--color5);font-weight:none;" class="m-0"> <i class="far fa-clock"></i> Horario de atención: Lunes a Sábados de 9:00 am a 7:00 pm.</p>
+                    <p style="color:var(--color5);font-weight:none;font-size:15px;" class="m-0"> <i class="far fa-clock"></i> Horario de atención: Lunes a Sábados de 9:00 am a 7:00 pm.</p>
                 </div>
-
+                <div class="py-2">
+                    <p style="color:var(--color5);font-weight:none;font-size:15px" class="m-0"><i class="fas fa-envelope mx-1"></i><a class="text-white" href="mailto:informes@iespprockefeller.edu.pe" target="_blank">informes@iespprockefeller.edu.pe
+                    </p>
+                    </a>
+                </div>
+                <div class="py-2">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15607.051012145994!2d-77.039845!3d-12.059838!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8c3db25487b%3A0x567820a4760f87cd!2sAv.%209%20de%20Diciembre%20378%2C%20Lima%2015001%2C%20Per%C3%BA!5e0!3m2!1ses!2sus!4v1756132454968!5m2!1ses!2sus" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
             <div class="col-lg-3 ">
                 <div>
-                    <h3 style="color:var(--color5);font-weight:bold;">Noticias Recientes</h3>
+                    <h3 style="color:var(--color5);font-weight:bold;font-size:15px;">Noticias Recientes</h3>
                     <br>
                     <a href="./view.php?id=2">
                         <div class="row d-flex justify-content-around">
                             <div class="col-lg-5"><img src="./public/img/galeria/portada_pub3.jpg" style="border-radius:5px;object-fit:cover;height:100px;width:100%;object-position:top;" class="img-fluid" alt=""></div>
-                            <div class="col-lg-7 my-auto"><span style="color:var(--color5);">COMUNICADO</span></div>
+                            <div class="col-lg-7 my-auto"><span style="color:var(--color5);font-size:15px;">Comunicado de Dirección</span></div>
                         </div>
                     </a>
                     <hr style="color:Var(--color2);">
-                    <a href="./entrada/examination-and-document-exchange-platfo">
+                    <a href="./view.php?id=1">
                         <div class="row d-flex justify-content-around">
-                            <div class="col-lg-5"><img src="./public/img/galeria/noticia2.jpg" style="border-radius:5px;object-fit:cover;height:100px;width:100%;object-position:top;" alt=""></div>
-                            <div class="col-lg-7 my-auto"><span style="color:var(--color5);">CONVENIO CON LA RED DE PARÁMEDICOS DEL PERÚ </span></div>
+                            <div class="col-lg-5"><img src="./public/img/galeria/portada_pub1.jpg" style="border-radius:5px;object-fit:cover;height:100px;width:100%;object-position:top;" alt=""></div>
+                            <div class="col-lg-7 my-auto"><span style="color:var(--color5);font-size:15px;">Examen de Admisión 2025</span></div>
                         </div>
                     </a>
                     <hr style="color:Var(--color2);">
                 </div>
                 <br>
-
-
             </div>
-            <br>
+
             <hr class="p-0 m-0" style="color:Var(--color2);">
-
+            <div class="topcontrol2">
+                <a href="https://wa.me/+51916144934" target="_blank">
+                    <span>
+                        <i class="fab fa-whatsapp fa-2x"></i>
+                    </span>
+                </a>
+            </div>
         </div>
-
         <div class="row d-flex justify-content-start py-5" style="position: relative;">
             <a style="position: absolute;color:var(--color2);background:var(--color2);width:50px;height:50px;border-radius:5px;display:flex;text-align:center;align-items:center;justify-content:center;left:99%;top:-16%;" href="#">
                 <span><i class="fas fa-chevron-up" style="color:var(--color1);font-size:1.5rem;"></i></span>
             </a>
-            <div class="col-lg-12 "><span style="color:var(--color5);text-align:center;display:block;">© 2025 Todos los derechos reservados, Instituto Pedagógico Nelson Rockefeller.</span></div>
+            <div class="col-lg-12"><span style="color:var(--color5);text-align:center;display:block;font-size:12px;">© 2025 Todos los derechos reservados, Instituto Pedagógico Nelson Rockefeller.</span></div>
+            <br>
+            <div class="col-lg-12">
+                <a href="https://demo.cloud-sensoft.com/catalogo"
+                    style="color:var(--color5); text-align:center; display:block; font-size:12px; text-decoration:none;" target="_blank">
+                    Desarrollado por Sensoft Solutions
+                </a>
+            </div>
+
         </div>
 
     </div>

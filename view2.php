@@ -167,7 +167,7 @@
     <?php include_once 'partials/header.php'; ?>
 
 
-    <section class="container-fluid" id="lema">
+    <!-- <section class="container-fluid" id="lema">
 
         <div class="row justify-content-center">
 
@@ -198,7 +198,7 @@
 
             </div>
         </div>
-    </section>
+    </section> -->
 
 
     <section class="container lista">

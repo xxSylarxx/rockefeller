@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="El Instituto Sistemas Perú se dedica a proporcionar una educación integral de alta calidad que fomente el desarrollo académico, personal y social de nuestros estudiantes.">
-    <title>ISP - Instituto</title>
+  <title>IESPP - NELSON ROCKEFELLER</title>
     <link rel="shortcut icon" href="./public/img/icons/logo.png" type="image/png">
     <!--     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"> -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
@@ -304,6 +304,8 @@
         <br> <br>
 
     </main>
+    <?php include_once './enlaces-recomendados/enlaces.php'; ?>
+    
     <?php include_once 'partials/footer.php'; ?>
     <script>
         function landingnext() {
