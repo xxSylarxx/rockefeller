@@ -170,11 +170,11 @@
                     <!-- <li class="nav-item">
                         <a class="nav-link" href="./cursos.php">Educacion Inicial</a>
                     </li> -->
-                    <li class="nav-item" onmouseover="showMenuHover(0)" onmouseout="showMenuHover2(0)">
-                        <a class="nav-link" href="#" id="navbarDropdown">
-                            Educación Inicial &nbsp;<i class="fas fa-chevron-down" style="font-size:12px;"></i>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Educación Inicial
                         </a>
-                        <ul class="dropdown-menu animate__animated animate__fadeInUp" aria-labelledby="navbarDropdown">
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown" >
                             <li><a class="dropdown-item py-2" href="./carrera.php">Carrera</a></li>
                             <li><a class="dropdown-item py-2" href="./campo-laboral.php">Campo Laboral</a></li>
                             <li><a class="dropdown-item py-2" href="./plan-estudios.php">Plan de Estudios</a></li>
@@ -208,11 +208,11 @@
                     <li class="nav-item">
                         <a class="nav-link" href="./noticias.php">Noticias</a>
                     </li>
-                    <li class="nav-item" onmouseover="showMenuHover(1)" onmouseout="showMenuHover2(1)">
-                        <a class="nav-link" href="#" id="navbarDropdown">
-                            Admisión &nbsp;<i class="fas fa-chevron-down" style="font-size:12px;"></i>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="admissionDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Admisión <!-- &nbsp;<i class="fas fa-chevron-down" style="font-size:12px;"></i> -->
                         </a>
-                        <ul class="dropdown-menu animate__animated animate__fadeInUp" aria-labelledby="navbarDropdown">
+                        <ul class="dropdown-menu" aria-labelledby="admissionDropdown">
                             <li><a class="dropdown-item py-2" href="./lineamientos.php">Lineamientos Académicos</a></li>
                             <li><a class="dropdown-item py-2" href="./proceso.php">Proceso</a></li>
                             <li><a class="dropdown-item py-2" href="./matricula.php">Matricula</a></li>
