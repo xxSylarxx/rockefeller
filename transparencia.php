@@ -498,6 +498,38 @@
                             </div>
                         </a>
                     </div>
+                    <div class="col-md-4 px-3 my-3">
+                        <a href="view4.php?id=11">
+                            <div class="card shadow-sm h-100" style="background: rgb(248, 248, 248);">
+                                <!-- <span class="news">Transparencia</span> -->
+                                <img src="./public/img/galeria/integrantes-matri-egre.png" width="100%" height="300">
+
+                                <div class="card-body">
+
+                                    <div class="row ">
+                                        <div style="color: var(--color4);">
+                                            <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+                                            <span class="ms-2">01-02-2025</span>
+                                        </div>
+                                        <div class="pt-3" style="color: var(--color4);">
+                                            <h5 class="fw-bold text-uppercase" style="font-size: 18px;color:var(--color4);">NÚMERO DE INGRESANTES, MATRICULADOS Y EGRESADOS 2023- 2025
+                                            </h5>
+                                        </div>
+                                    </div>
+                                    <div class="detalle">
+                                        Instituto de Educación Superior Pedagógico Privado
+                                        “Nelson Rockefeller”
+                                    </div>
+                                </div>
+
+                                <div class="card-footer text-info d-flex justify-content-center align-items-center my-auto">
+
+                                    <a href="view4.php?id=11" style="color: var(--color1);">Ver más&nbsp;&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
 
                 </div>
             </div>
@@ -507,7 +539,7 @@
 
     </main>
     <?php include_once './enlaces-recomendados/enlaces.php'; ?>
-    
+
     <?php include_once 'partials/footer.php'; ?>
     <script>
         function landingnext() {

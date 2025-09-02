@@ -95,51 +95,56 @@
 </style>
 <header id="header" class="fixed-top">
     <div class="header-top py-1">
-    <div class="container">
-        <div class="row align-items-center">
-            
-            <!-- Columna izquierda -->
-            <div class="col-lg-8 col-12 gx-2">
-                <div class="header-link d-flex align-items-center gap-4">
-                    
-                    <p style="color:var(--color5);" class="m-0">
-                        <a class="text-white" href="https://maps.app.goo.gl/aV61HX9XxMQny9S2A" target="_blank">
-                            <i class="fas fa-location-arrow mx-1"></i> Av. 9 de Diciembre 346-372-378
-                        </a>
-                    </p>
-                    
-                    <p style="color:var(--color5);" class="m-0">
-                        <i class="fas fa-phone-volume mx-1"></i>
-                        <a class="text-white" href="tel:+51916144934" target="_blank">+51 916 144 934</a>
-                    </p>
-                    
-                    <p style="color:var(--color5);" class="m-0">
-                        <i class="fas fa-envelope mx-1"></i>
-                        <a class="text-white" href="mailto:informes@iespprockefeller.edu.pe" target="_blank">informes@iespprockefeller.edu.pe</a>
-                    </p>
-                    
+        <div class="container">
+            <div class="row align-items-center">
+
+                <!-- Columna izquierda -->
+                <div class="col-lg-8 col-12 gx-2">
+                    <div class="header-link d-flex align-items-center gap-4">
+
+                        <p style="color:var(--color5);" class="m-0">
+                            <a class="text-white" href="https://maps.app.goo.gl/aV61HX9XxMQny9S2A" target="_blank">
+                                <i class="fas fa-location-arrow mx-1"></i> Av. 9 de Diciembre 346-372-378
+                            </a>
+                        </p>
+
+                        <p style="color:var(--color5);" class="m-0">
+                            <i class="fas fa-phone-volume mx-1"></i>
+                            <a class="text-white" href="tel:+51916144934" target="_blank">+51 916 144 934</a>
+                        </p>
+
+                        <p style="color:var(--color5);" class="m-0">
+                            <i class="fas fa-envelope mx-1"></i>
+                            <a class="text-white" href="mailto:informes@iespprockefeller.edu.pe" target="_blank">informes@iespprockefeller.edu.pe</a>
+                        </p>
+
+                    </div>
                 </div>
+                <!-- Columna derecha -->
+                <div class="col-lg-4 col-12 d-flex justify-content-lg-end justify-content-center gap-3">
+                    <!-- <span class="text-white">Redes:</span> -->
+                    <a href="https://www.instagram.com/instituto_nelson_rockefeller" class="text-white" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.facebook.com/institutopedagogiconelsonrockefeller" class="text-white" target="_blank">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://wa.me/+51916144934" class="text-white" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@InstitutoNelsonRockefeller" class="text-white" target="_blank">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/@iesppnelsonrockefeller" class="text-white" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 448 512">
+                            <path d="M448,209.91a210,210,0,0,1-122.77-39.25V346.5a165.65,165.65,0,1,1-141.47-163.58v84.86a82.26,82.26,0,1,0,57.29,78.72V0h84.18A126.94,126.94,0,0,0,448,126.83Z" />
+                        </svg>
+                    </a>
+                </div>
+
             </div>
-            <!-- Columna derecha -->
-            <div class="col-lg-4 col-12 d-flex justify-content-lg-end justify-content-center gap-3">
-                <span class="text-white">Redes:</span>
-                <a href="https://www.instagram.com/instituto_nelson_rockefeller" class="text-white" target="_blank">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="https://www.facebook.com/institutopedagogiconelsonrockefeller" class="text-white" target="_blank">
-                    <i class="fab fa-facebook"></i>
-                </a>
-                <a href="https://wa.me/+51916144934" class="text-white" target="_blank">
-                    <i class="fab fa-whatsapp"></i>
-                </a>
-                <a href="https://www.youtube.com/@InstitutoNelsonRockefeller" class="text-white" target="_blank">
-                    <i class="fab fa-youtube"></i>
-                </a>
-            </div>
-            
         </div>
     </div>
-</div>
 
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container ps-0">
@@ -208,7 +213,7 @@
                             Admisión &nbsp;<i class="fas fa-chevron-down" style="font-size:12px;"></i>
                         </a>
                         <ul class="dropdown-menu animate__animated animate__fadeInUp" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item py-2" href="#">Lineamientos Académicos</a></li>
+                            <li><a class="dropdown-item py-2" href="./lineamientos.php">Lineamientos Académicos</a></li>
                             <li><a class="dropdown-item py-2" href="./proceso.php">Proceso</a></li>
                             <li><a class="dropdown-item py-2" href="./matricula.php">Matricula</a></li>
                         </ul>

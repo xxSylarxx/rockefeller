@@ -610,8 +610,8 @@
                         </div>
                     </div>
                     <div class="col-8">
-                        <div class="counter" data-target="1000">0</div>
-                        <p>Proyectos de Investigación </p>
+                        <div class="counter" data-target="33">0</div>
+                        <p>Años de trayectoria </p>
                     </div>
                 </div>
 
@@ -623,8 +623,8 @@
                         </div>
                     </div>
                     <div class="col-8">
-                        <div class="counter" data-target="500">0</div>
-                        <p>Egresados listos para el mercado laboral</p>
+                        <div class="counter" data-target="4055">0</div>
+                        <p>Egresados</p>
                     </div>
                 </div>
 
@@ -636,8 +636,8 @@
                         </div>
                     </div>
                     <div class="col-8">
-                        <div class="counter" data-target="22">0</div>
-                        <p>Convenios Internacionales</p>
+                        <div class="counter" data-target="2110">0</div>
+                        <p>Titulados </p>
                     </div>
                 </div>
 
@@ -878,7 +878,7 @@
                     counters.forEach((counter, index) => {
                         // Agregar el prefijo "+" a los primeros 3 contadores
                         if (index < 2) {
-                            counter.setAttribute('data-prefix', '+');
+                            counter.setAttribute('data-prefix', '');
                         }
 
                         animateCounter(counter, baseDuration, () => {
